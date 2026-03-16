@@ -1,0 +1,78 @@
+---
+import Layout from '../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL;
+
+const modules = [
+  { id: "m1", slug: "m1-comprendre-llm",         niveau: "N1", titre: "Comprendre l'IA Générative",          statut: "✅ Disponible" },
+  { id: "m2", slug: "m2-risques-gouvernance",     niveau: "N1", titre: "Risques & gouvernance de l'IA",       statut: "✅ Disponible" },
+  { id: "m3", slug: "m3-baseline-n1",             niveau: "N1", titre: "Évaluation de base Niveau 1",         statut: "🔜 À venir" },
+  { id: "m4", slug: "m4-4types-prompts",          niveau: "N2", titre: "Les 4 types de prompts",              statut: "🔜 À venir" },
+  { id: "m5", slug: "m5-methode-niveaux",         niveau: "N2", titre: "La méthode par niveaux",              statut: "🔜 À venir" },
+  { id: "m6", slug: "m6-connaissance-capitalisee",niveau: "N2", titre: "Capitaliser sa connaissance",         statut: "🔜 À venir" },
+  { id: "m7", slug: "m7-baseline-n2",             niveau: "N2", titre: "Évaluation de base Niveau 2",         statut: "🔜 À venir" },
+  { id: "m8", slug: "m8-assistant-personnalise",  niveau: "N3", titre: "Créer son assistant personnalisé",    statut: "🔜 À venir" },
+  { id: "m9", slug: "m9-skills-bases-connaissance",niveau:"N3", titre: "Skills & bases de connaissance",      statut: "🔜 À venir" },
+  { id: "m10",slug: "m10-intro-mcp",              niveau: "N3", titre: "Introduction aux MCP",                statut: "🔜 À venir" },
+  { id: "m11",slug: "m11-baseline-n3",            niveau: "N3", titre: "Évaluation de base Niveau 3",         statut: "🔜 À venir" },
+];
+---
+<Layout title="Accueil" description="Formation IA Générative pour PME/ETI françaises — méthode, gouvernance, prompting.">
+  <style>
+    .hero { padding: 3rem 0 2rem; border-bottom: 1px solid #eee; margin-bottom: 2rem; }
+    .hero h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .hero p { color: #555; max-width: 600px; }
+    .quiz-placeholder { background: #f5f5f5; border: 2px dashed #ccc; border-radius: 8px; padding: 2rem; margin: 2rem 0; text-align: center; color: #888; }
+    .niveau-section h2 { font-size: 1.1rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; margin: 2rem 0 1rem; }
+    .module-grid { display: grid; gap: 0.75rem; }
+    .module-card { display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.25rem; border: 1px solid #e5e5e5; border-radius: 6px; text-decoration: none; color: inherit; transition: border-color 0.15s; }
+    .module-card:hover { border-color: #1a1a1a; }
+    .module-card .titre { font-weight: 500; }
+    .module-card .statut { font-size: 0.85rem; color: #666; white-space: nowrap; margin-left: 1rem; }
+    .badge { display: inline-block; font-size: 0.7rem; font-weight: 600; padding: 2px 6px; border-radius: 3px; margin-right: 0.5rem; }
+    .n1 { background: #dcfce7; color: #166534; }
+    .n2 { background: #fef9c3; color: #713f12; }
+    .n3 { background: #ede9fe; color: #4c1d95; }
+  </style>
+
+  <div class="hero">
+    <h1>Formation IA Générative</h1>
+    <p>Méthode structurée et sécurisée pour les PME/ETI françaises. Sans expertise technique requise.</p>
+  </div>
+
+  <div class="quiz-placeholder">
+    <strong>Quiz d'orientation (à venir)</strong><br />
+    6 questions · 5 profils · Recommandation personnalisée de parcours
+  </div>
+
+  <div class="niveau-section">
+    <h2>Niveau 1 — Comprendre & situer</h2>
+    <div class="module-grid">
+      {modules.filter(m => m.niveau === "N1").map(m => (
+        <a class="module-card" href={`${base}modules/${m.slug}/`}>
+          <span class="titre"><span class={`badge n1`}>N1</span>{m.titre}</span>
+          <span class="statut">{m.statut}</span>
+        </a>
+      ))}
+    </div>
+
+    <h2>Niveau 2 — Prompting & méthode</h2>
+    <div class="module-grid">
+      {modules.filter(m => m.niveau === "N2").map(m => (
+        <a class="module-card" href={`${base}modules/${m.slug}/`}>
+          <span class="titre"><span class={`badge n2`}>N2</span>{m.titre}</span>
+          <span class="statut">{m.statut}</span>
+        </a>
+      ))}
+    </div>
+
+    <h2>Niveau 3 — Configurer & déployer</h2>
+    <div class="module-grid">
+      {modules.filter(m => m.niveau === "N3").map(m => (
+        <a class="module-card" href={`${base}modules/${m.slug}/`}>
+          <span class="titre"><span class={`badge n3`}>N3</span>{m.titre}</span>
+          <span class="statut">{m.statut}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>
