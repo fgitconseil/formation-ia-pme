@@ -36,6 +36,13 @@
 
 ---
 
+## v2.2 — 2026-03 · Correction post-validation transversale NotebookLM
+
+### Correction
+- 🔴 script-v2.md niveau 🟡 : ajout Note 2026 — "si votre outil dispose d'une fonction Search, l'accès à des informations récentes ne réduit pas l'exigence de vérification — il l'augmente"
+
+---
+
 ## Convention de versioning
 
 | Version | Signification |

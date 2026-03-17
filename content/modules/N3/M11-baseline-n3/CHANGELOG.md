@@ -48,3 +48,12 @@
 - 🟢 Framework 4 couches optionnel (Instructions → Bases de connaissance → Hooks → Sous-agents) — Notes référent IA
 
 ### Référence : _qualite/audits/M11-contre-validation-externe.md
+
+---
+
+## v2.1 — 2026-03 · Corrections post-validation transversale NotebookLM
+
+### Corrections
+- 🔴 guide-v2.md : "journal de bord" → "Registre des usages de l'IA" (terminologie officielle §10.6 — standard AI Act)
+- 🔴 quiz.md : occurrences résiduelles "Skill" → "Base de connaissance du Projet" / "responsable par Projet" (Q2, Q4, Q5, Q7, Q10 + corrigé)
+- 🔴 exercice.md : "Outil utilisé (assistant / Skill / conversation)" → "Projet" · "System prompt ou Skill actif" → "Instructions de Projet actives" · "Source du Skill obsolète" → "Source de la Base de connaissance obsolète"

@@ -85,6 +85,8 @@ Le prompt type : le prompt de vérification — avec l'instruction de citer les 
 
 Important : pour que l'IA puisse identifier ce qui manque dans votre document, il faut lui fournir une source de référence externe — le texte de loi, la politique interne, le contrat de référence. Sans ce document, l'IA travaille dans le vide : elle peut inventer des manques inexistants ou valider des absences qui n'en sont pas. La vérification par l'IA est aussi bonne que la source que vous lui donnez.
 
+**Note 2026 :** si votre outil dispose d'une fonction Search (recherche web), l'accès à des informations récentes ne réduit pas l'exigence de vérification — il l'augmente. Contrôlez la date de publication et la fiabilité de chaque source retournée, comme vous le feriez pour n'importe quelle information.
+
 **[Slide : 🔵 Optimiser]**
 
 🔵 Optimiser.

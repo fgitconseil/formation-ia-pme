@@ -63,8 +63,8 @@ WORKFLOW — [Nom du cas d'usage]
   Données interdites (à anonymiser ou exclure) : ___
 
 ÉTAPE 2 — TRAITEMENT IA
-  Outil utilisé (assistant / Skill / conversation) : ___
-  System prompt ou Skill actif : ___
+  Outil utilisé (assistant / Projet / conversation) : ___
+  System prompt ou Instructions de Projet actives : ___
   Type de prompt (M4) : Production / Exploration / Structuration / Vérification
   Niveau de la méthode (M5) : 🟢 / 🟡 / 🔵
 
@@ -113,7 +113,7 @@ Pour chaque risque, évaluez l'impact (1=faible, 3=élevé) et définissez le ga
 | Risque | Impact (1-3) | Probabilité (1-3) | Garde-fou |
 |--------|-------------|-------------------|-----------|
 | Données confidentielles transmises sans anonymisation | | | |
-| Source du Skill obsolète → réponse incorrecte diffusée | | | |
+| Source de la Base de connaissance obsolète → réponse incorrecte diffusée | | | |
 | Validation humaine contournée sous pression délai | | | |
 | Utilisateur hors formation utilise l'assistant | | | |
 | Output utilisé pour une décision à fort enjeu sans vérification | | | |

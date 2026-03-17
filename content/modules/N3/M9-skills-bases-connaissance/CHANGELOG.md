@@ -1,5 +1,12 @@
 # CHANGELOG — M9 Skills et bases de connaissance
 
+## v2.2 — 2026-03 · Correction post-validation transversale NotebookLM
+
+### Correction
+- 🔴 script-v2.md section Maintenance : ajout "Pratique 4 — Gestion active du contexte" (§5.8) — technique résumé intermédiaire toutes les 10-15 échanges pour éviter la dérive lors de sessions denses
+
+---
+
 ## v2.1 — 2026-03 · Propagation terminologie quiz + exercice + post
 
 ### Corrections

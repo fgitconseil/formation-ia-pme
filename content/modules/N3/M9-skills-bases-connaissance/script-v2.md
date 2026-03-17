@@ -291,7 +291,15 @@ Tous les 3 à 6 mois selon la fréquence de changement de vos données : vérifi
 
 Pratique 3 : traiter les anomalies signalées.
 
-Quand un utilisateur signale une réponse bizarre ou incorrecte de l'assistant, c'est une anomalie à investiguer dans les sources — pas seulement dans la formulation du prompt."
+Quand un utilisateur signale une réponse bizarre ou incorrecte de l'assistant, c'est une anomalie à investiguer dans les sources — pas seulement dans la formulation du prompt.
+
+**[Slide : technique — Gestion active du contexte]**
+
+Pratique 4 : gérer activement le contexte lors des sessions longues.
+
+Lors de sessions longues sur une Base de connaissance dense, l'IA peut perdre le fil de vos Instructions de Projet. Technique recommandée : toutes les 10 à 15 échanges, demandez : 'Résume les instructions de ce Projet et ce que tu as traité jusqu'ici.'
+
+Cela recentre l'IA sans perdre le travail effectué. C'est la différence entre un assistant qui dérive et un assistant qui maintient le cap."
 
 ---
 

@@ -163,7 +163,7 @@ Décrivez les 6 scénarios de test à valider (4 scénarios M8 + 2 scénarios MC
 
 **7. Plan de rollback**
 
-Comment déconnecter le serveur MCP en moins de 10 minutes si un problème survient ?
+Identifiez avec votre service IT la procédure de suspension d'urgence du dispositif. Documentez-la en 3 étapes maximum.
 
 Procédure : ___________
 

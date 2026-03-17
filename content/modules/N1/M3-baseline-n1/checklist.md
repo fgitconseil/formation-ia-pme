@@ -22,12 +22,7 @@
 
 ### ✅ 2. Vérifier les données avant de les coller
 
-**Action** : Passer les données à coller par le filtre des 3 questions :
-- Est-ce que cette information peut être rendue publique ?
-- Concerne-t-elle des personnes identifiables ?
-- Représente-t-elle un avantage concurrentiel ?
-
-Si oui à l'une des deux dernières ou non à la première → anonymiser ou ne pas coller.
+**Action** : Appliquez le Filtre M2 (3 questions) avant tout usage. Si oui à l'une des deux dernières ou non à la première → anonymiser ou ne pas coller.
 
 **Pourquoi** : L'exfiltration est toujours involontaire. Le réflexe de copier-coller est automatique — la vérification doit l'être aussi.
 

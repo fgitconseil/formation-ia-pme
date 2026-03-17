@@ -81,7 +81,7 @@ Vous devez pouvoir répondre à ces questions à tout moment :
 - Quelle version des Instructions de Projet était active à ce moment ?
 - Une vérification humaine a-t-elle eu lieu avant diffusion ?
 
-La traçabilité ne requiert pas un outil technique complexe. Un journal de bord simple (fichier partagé, wiki, tableau) suffit pour commencer.
+La traçabilité ne requiert pas un outil technique complexe. Un Registre des usages de l'IA simple (fichier partagé, wiki, tableau) suffit pour commencer.
 
 **4. Supervision humaine**
 

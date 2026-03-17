@@ -29,7 +29,7 @@ Vous avez déployé un assistant pour votre équipe. Trois semaines après, un c
 
 A. Désactiver l'assistant immédiatement jusqu'à investigation complète
 B. Demander au collègue de reformuler sa question
-C. Investiguer la source de l'erreur : est-elle dans le system prompt, dans une source du Skill, ou dans la formulation de la question ? Puis corriger à la source.
+C. Investiguer la source de l'erreur : est-elle dans le system prompt, dans une source de la Base de connaissance, ou dans la formulation de la question ? Puis corriger à la source.
 D. Informer l'ensemble de l'équipe de ne plus utiliser l'assistant sur ce sujet
 
 ---
@@ -47,12 +47,12 @@ D. Seule une version validée par un expert externe peut être industrialisée
 
 ## Question 4
 
-Vous avez un Skill de connaissance "Procédures RH" qui fonctionne bien depuis 4 mois. Une nouvelle négociation collective vient d'aboutir à un avenant à votre convention collective. Que faites-vous ?
+Vous avez une Base de connaissance du Projet "Procédures RH" qui fonctionne bien depuis 4 mois. Une nouvelle négociation collective vient d'aboutir à un avenant à votre convention collective. Que faites-vous ?
 
 A. Rien — un accord de 4 mois est encore récent et ne nécessite pas de mise à jour
-B. Ajouter l'avenant dans le Skill sans supprimer l'ancienne version pour conserver l'historique complet
-C. Archiver l'ancienne version, intégrer le nouvel avenant après l'avoir audité avec la grille M9, et re-tester le Skill avec vos questions de référence
-D. Créer un nouveau Skill en parallèle pour le nouvel avenant et laisser l'ancien en service
+B. Ajouter l'avenant dans la Base de connaissance sans supprimer l'ancienne version pour conserver l'historique complet
+C. Archiver l'ancienne version, intégrer le nouvel avenant après l'avoir audité avec la grille M9, et re-tester la Base de connaissance avec vos questions de référence
+D. Créer une nouvelle Base de connaissance en parallèle pour le nouvel avenant et laisser l'ancienne en service
 
 ---
 
@@ -61,7 +61,7 @@ D. Créer un nouveau Skill en parallèle pour le nouvel avenant et laisser l'anc
 Dans un dispositif IA gouverné, à quoi sert la traçabilité ?
 
 A. À surveiller les employés qui utilisent l'IA
-B. À pouvoir identifier l'assistant utilisé, la version du Skill, et si une validation humaine a eu lieu — pour tout output diffusé ou toute décision prise avec l'aide de l'IA
+B. À pouvoir identifier l'assistant utilisé, la version de la Base de connaissance, et si une validation humaine a eu lieu — pour tout output diffusé ou toute décision prise avec l'aide de l'IA
 C. À calculer le coût d'usage de l'IA par service
 D. À prouver aux auditeurs que l'IA n'est pas utilisée pour des décisions importantes
 
@@ -84,7 +84,7 @@ Votre référent IA change de poste. Vous devez transmettre la gestion du dispos
 
 A. Un briefing oral de 2 heures sur les usages habituels
 B. L'accès aux conversations historiques de l'ancien référent
-C. Un processus documenté, une fiche de référence par assistant, un propriétaire par Skill, et un tableau de bord actif — tout ce que le guide M11 vous a demandé de construire
+C. Un processus documenté, une fiche de référence par assistant, un responsable par Projet, et un tableau de bord actif — tout ce que le guide M11 vous a demandé de construire
 D. Une formation au module M1 pour que le successeur parte des bases
 
 ---
@@ -117,7 +117,7 @@ Vous consultez votre tableau de bord de pilotage et constatez que le "% d'output
 
 A. Les utilisateurs sont devenus plus exigeants — ce n'est pas une dégradation du dispositif
 B. Le modèle IA a été mis à jour par le fournisseur et la qualité a baissé
-C. Le dispositif se dégrade — probablement parce que les sources du Skill ne sont plus à jour, ou parce que les utilisateurs utilisent l'assistant hors de son périmètre configuré
+C. Le dispositif se dégrade — probablement parce que les sources de la Base de connaissance ne sont plus à jour, ou parce que les utilisateurs utilisent l'assistant hors de son périmètre configuré
 D. L'indicateur est trop volatil pour être interprété — attendre encore 2 mois
 
 ---
@@ -129,7 +129,7 @@ D. L'indicateur est trop volatil pour être interprété — attendre encore 2 m
 | 1 | **B** | Le system prompt embarque les règles permanentes. Sans lui, chaque conversation recommence de zéro. |
 | 2 | **C** | L'investigation à la source est la bonne démarche — pas la désactivation précipitée ni la reformulation. Un incident est un signal d'amélioration. |
 | 3 | **B** | Plusieurs cycles 🟢🟡🔵 validés sont la condition de l'industrialisation. Industrialiser une première version non éprouvée, c'est amplifier l'erreur à grande échelle. |
-| 4 | **C** | Archiver l'ancienne version + auditer la nouvelle + re-tester avec les questions de référence. Laisser deux versions coexister = risque de mélange. |
+| 4 | **C** | Archiver l'ancienne version + auditer la nouvelle + re-tester la Base de connaissance avec les questions de référence. Laisser deux versions coexister = risque de mélange. |
 | 5 | **B** | La traçabilité permet de répondre aux questions de responsabilité : qui a utilisé quoi, comment, avec quelle validation. C'est la condition d'un usage auditable. |
 | 6 | **B** | Les signaux de dégradation précèdent les incidents. Les détecter tôt est l'objectif du pilotage — pas attendre l'erreur visible. |
 | 7 | **C** | La transmissibilité est un critère de maturité du dispositif. Un dispositif non documenté est personnellement dépendant — c'est un risque organisationnel. |

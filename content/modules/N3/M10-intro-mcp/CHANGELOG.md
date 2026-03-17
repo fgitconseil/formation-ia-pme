@@ -1,5 +1,13 @@
 # CHANGELOG — M10 Connecter l'IA à vos outils métier — Introduction au MCP
 
+## v1.2 — 2026-03 · Corrections post-validation transversale NotebookLM
+
+### Corrections
+- 🟢 script-v1.md avertissement : remplacement préambule "Ce que vous allez apprendre ici a une portée différente..." par renvoi M8 ("Comme établi en M8...") — suppression redondance avec M8 "IA = infrastructure partagée"
+- 🟢 exercice.md section 7 "Plan de rollback" : reformulation pour PME — "Comment déconnecter en moins de 10 minutes" → "Identifiez avec votre service IT la procédure de suspension d'urgence" (calé sur le niveau DSI réel des PME)
+
+---
+
 ## v1.1 — 2026-03 · Correction format tableau résultats quiz
 
 ### Correction

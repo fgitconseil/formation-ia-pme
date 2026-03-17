@@ -29,9 +29,7 @@ Il suppose que vous avez validé M8 (configuration d'un assistant) et M9 (bases 
 
 **Si vous êtes référent IA ou équipe IT**, ce module vous donne le vocabulaire, l'architecture de base, et les règles de gouvernance pour déployer un premier connecteur MCP dans votre organisation.
 
-Ce que vous allez apprendre ici a une portée différente des modules précédents.
-
-Connecter l'IA à vos outils métier, c'est lui donner accès à vos données en temps réel — et la capacité d'agir dans vos systèmes. Ce n'est plus un assistant de conversation. C'est un composant d'infrastructure.
+Comme établi en M8, dès que l'IA devient un outil partagé, elle cesse d'être un simple assistant de conversation — elle devient un composant d'infrastructure. En M10, ce changement va encore plus loin : Claude accède à vos données en temps réel et peut agir dans vos systèmes.
 
 Cela implique des décisions que vous seul pouvez prendre : quelles données exposer, quels droits accorder, qui supervise, comment tester, comment revenir en arrière.
 

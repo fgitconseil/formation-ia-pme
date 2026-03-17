@@ -14,6 +14,13 @@
 
 ---
 
+## v1.1 — 2026-03 · Correction redondance filtre M2
+
+### Correction
+- checklist.md section 2 : liste des 3 questions de sécurité remplacée par renvoi court "Appliquez le Filtre M2 (3 questions) avant tout usage." — suppression de la répétition in extenso déjà couverte par M2
+
+---
+
 ## v2 — à venir (post-Aristid S4)
 
 - Ajuster les questions du quiz selon les lacunes identifiées en pilote
