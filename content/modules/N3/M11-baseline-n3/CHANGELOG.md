@@ -51,6 +51,16 @@
 
 ---
 
+## v2.2 — 2026-03 · Kit de survie J+1 (Gemini)
+
+### Ajout
+- guide-v2.md : nouvelle section finale "Plan d'action 30 jours — Kit de survie J+1"
+  1. Règle des 30 minutes : identifier chaque matin une tâche complexe à traiter avec l'IA
+  2. Template "Zéro Friction" : modèle 1 page pour définir son premier Projet métier (gabarit + section tests)
+  3. Checklist de capture : 5 signaux → futurs Instructions de Projet ou Base de connaissance + règle de priorité Projet pilote
+
+---
+
 ## v2.1 — 2026-03 · Corrections post-validation transversale NotebookLM
 
 ### Corrections

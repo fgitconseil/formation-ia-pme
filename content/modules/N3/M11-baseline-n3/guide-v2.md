@@ -305,3 +305,59 @@ Pour les organisations qui utilisent Claude dans des environnements techniques a
 **Couche 4 — Sous-agents** : des agents IA qui orchestrent des tâches complexes en autonomie (M10, conditionnel). C'est la délégation totale — avec supervision humaine formalisée.
 
 En PME, les couches 1 et 2 couvrent 90% des besoins opérationnels. Les couches 3 et 4 sont le territoire des équipes IT et des référents avancés. Ne commencez pas par le bas — construisez de haut en bas, couche par couche.
+
+---
+
+## Plan d'action 30 jours — Kit de survie J+1
+
+Ce guide vous a donné le cadre. Voici comment démarrer concrètement dès demain.
+
+### 1. La règle des 30 minutes
+
+Chaque matin, avant de traiter vos emails, identifiez une tâche complexe de votre journée et traitez-la avec l'assistance de l'IA.
+
+Pas une tâche simple. Une tâche qui vous coûte habituellement 1 à 2 heures : une synthèse de réunion difficile, la préparation d'un entretien, la rédaction d'un document structuré.
+
+Au bout de 30 jours, vous aurez identifié vos 5 cas d'usage les plus rentables — ceux qui méritent d'être industrialisés.
+
+### 2. Template "Zéro Friction" — Votre premier Projet métier en 1 page
+
+Utilisez ce modèle pour définir votre premier Projet dans l'interface claude.ai :
+
+```
+NOM DU PROJET : ___________
+Cas d'usage principal : ___________
+
+INSTRUCTIONS DE PROJET (gabarit 5 champs) :
+  Rôle :             ___________
+  Contexte :         ___________
+  Périmètre :        ___________
+  Format de sortie : ___________
+  Contraintes :      ___________
+
+BASE DE CONNAISSANCE (si applicable) :
+  Document 1 : ___________ · Version : ___ · Responsable : ___
+  Document 2 : ___________ · Version : ___ · Responsable : ___
+  Document 3 : ___________ · Version : ___ · Responsable : ___
+
+PREMIER TEST :
+  Question de référence 1 : ___________
+  Question de référence 2 : ___________
+  Résultat attendu : ___________
+```
+
+Règle : si vous ne pouvez pas remplir ce modèle en 20 minutes, le Projet n'est pas encore suffisamment défini. Affinez le périmètre avant de configurer.
+
+### 3. Checklist de capture — vos futurs Instructions de Projet
+
+Cette semaine, notez chaque fois que vous :
+
+- [ ] Répondez à une question qu'on vous pose régulièrement → candidat Instructions de Projet
+- [ ] Reformatez un document selon un modèle récurrent → candidat Instructions de Projet
+- [ ] Cherchez un document interne que vous devriez avoir sous la main → candidat Base de connaissance
+- [ ] Expliquez à un nouveau collègue comment fonctionne un processus → candidat Base de connaissance
+- [ ] Passez plus de 30 minutes sur une tâche de mise en forme → candidat 🔵 Optimiser
+
+Au bout de 7 jours, vous aurez votre backlog naturel de cas d'usage — classés par fréquence et par effort.
+
+**Règle de priorité** : commencez par le cas d'usage qui combine fréquence maximale et sensibilité minimale des données. C'est votre Projet pilote.

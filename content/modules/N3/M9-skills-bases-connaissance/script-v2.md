@@ -285,6 +285,8 @@ Pratique 1 : nommer un responsable par Projet.
 
 Chaque Base de connaissance doit avoir un propriétaire — la personne qui reçoit une alerte quand un document source est mis à jour.
 
+Un RAG fonctionne dans la durée si — et seulement si — quelqu'un en est explicitement responsable. Sans responsable nommé, la base devient obsolète en quelques semaines et l'assistant dérive vers des réponses inexactes.
+
 Pratique 2 : programmer des révisions régulières.
 
 Tous les 3 à 6 mois selon la fréquence de changement de vos données : vérifier que chaque document source est encore en vigueur.

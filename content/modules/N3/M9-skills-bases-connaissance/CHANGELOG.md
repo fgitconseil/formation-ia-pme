@@ -1,5 +1,12 @@
 # CHANGELOG — M9 Skills et bases de connaissance
 
+## v2.3 — 2026-03 · Phrase RAG maintenance (Gemini)
+
+### Ajout
+- script-v2.md section 5 Pratique 1 : phrase RAG maintenance — "Un RAG fonctionne dans la durée si — et seulement si — quelqu'un en est explicitement responsable. Sans responsable nommé, la base devient obsolète en quelques semaines et l'assistant dérive vers des réponses inexactes."
+
+---
+
 ## v2.2 — 2026-03 · Correction post-validation transversale NotebookLM
 
 ### Correction
