@@ -14,11 +14,18 @@
 
 ---
 
-## v2 — à venir (post-Aristid S4)
+## v2 — 2026-03 · BROUILLON · post-NotebookLM + ref v2
 
-- Vérifier que le cas Marc résonne avec les profils Aristid
-- Ajuster la durée de la section 3 (8 min est ambitieux pour 2 prompts)
-- Ajouter un exemple 🔵 si les apprenants demandent la suite concrète
+### Corrections intégrées
+- 🔴 Rapport d'écarts section 3 : annoté [Exemple simulé — à titre illustratif] · formule "Exemple de retour réel" supprimée
+- 🔴 Définition 🟣 reformulée : "architecture technique automatisée (Agents)" — plus "système organisationnel + rôles + KPI" (qui décrivait la gouvernance managériale)
+- 🟡 Nuance "5 min vs juriste" renforcée : "L'expertise juridique reste indispensable pour valider"
+- 🟡 Source de vérité ajoutée pour 🟡 : "sans source externe, l'IA peut inventer des manques inexistants"
+- 🟡 Section 4 : durée 3 min → 4 min dans la structure
+- 🟢 Transition M6 : mapping interface 🟢🟡 → chat libre / 🔵🟣 → Projet avec Instructions
+- 🟢 "Skills" → "Projets" dans la transition (alerte terminologie transversale)
+
+### Référence : _qualite/audits/M5-contre-validation-externe.md
 
 ---
 
