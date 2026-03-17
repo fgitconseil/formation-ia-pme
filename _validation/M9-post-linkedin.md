@@ -36,17 +36,17 @@ C'est le travail qui précède l'IA — pas celui qu'elle remplace.
 ## Variante B — Carrousel (format liste · à adapter en slides · ~250 mots)
 
 **Slide 1 — Accroche**
-5 signaux qui indiquent que votre base documentaire n'est pas prête pour un Skill IA
+5 signaux qui indiquent que votre base documentaire n'est pas prête pour une Base de connaissance du Projet
 
 **Slide 2 — Signal 1**
 ❌ Vous ne savez pas combien de versions d'une même procédure existent
 Si v2, v3, v4 coexistent sans hiérarchie → l'IA peut les mélanger
-✅ Règle : une procédure active = un fichier dans le Skill. Les autres → archive séparée.
+✅ Règle : une procédure active = un fichier dans la Base de connaissance. Les autres → archive séparée.
 
 **Slide 3 — Signal 2**
 ❌ Certains documents n'ont pas de date de mise à jour
 L'IA ne sait pas si c'est la version de 2020 ou de 2024
-✅ Règle : tout document intégré à un Skill doit avoir une date et un numéro de version en en-tête
+✅ Règle : tout document intégré à la Base de connaissance doit avoir une date et un numéro de version en en-tête
 
 **Slide 4 — Signal 3**
 ❌ Vous avez des documents de plus de 80 pages non découpés
@@ -64,7 +64,7 @@ La discipline de fiabilisation ne s'arrête pas à vos outputs — elle s'appliq
 ✅ Règle : auditer chaque document avant intégration (grille : date · version · contradictions · périmètre)
 
 **Slide 7 — CTA**
-Si vous reconnaissez 3 de ces signaux ou plus : commencez par l'audit documentaire, pas par la configuration du Skill.
+Si vous reconnaissez 3 de ces signaux ou plus : commencez par l'audit documentaire, pas par la configuration de la Base de connaissance.
 
 L'IA amplifie ce que vous lui donnez — en bien comme en mal.
 
@@ -78,7 +78,7 @@ Ils venaient de déployer un assistant IA connecté à leurs 40 procédures inte
 
 Trois semaines plus tard, un incident.
 
-Un responsable de production avait suivi une procédure de sécurité citée par l'assistant. La procédure était dans la base. Elle avait été révisée 8 mois plus tôt. La version dans le Skill était l'ancienne.
+Un responsable de production avait suivi une procédure de sécurité citée par l'assistant. La procédure était dans la base. Elle avait été révisée 8 mois plus tôt. La version dans la Base de connaissance était l'ancienne.
 
 Pas de conséquence grave — l'incident avait été détecté rapidement. Mais la confiance dans l'outil avait chuté.
 
@@ -86,14 +86,14 @@ Le directeur m'a demandé : "C'est un problème de technologie ?"
 
 Non. C'est un problème de données.
 
-Ils avaient 40 procédures dans le Skill. 7 avaient des doublons de version. 12 n'avaient pas de date de mise à jour. 3 avaient des contradictions entre sections rédigées à des périodes différentes.
+Ils avaient 40 procédures dans la Base de connaissance. 7 avaient des doublons de version. 12 n'avaient pas de date de mise à jour. 3 avaient des contradictions entre sections rédigées à des périodes différentes.
 
 L'IA avait utilisé ces documents comme si tous étaient également fiables et à jour. Elle n'a pas d'autre choix — elle ne peut pas évaluer la qualité de ses sources. C'est le rôle de l'humain.
 
 Ce que j'ai fait avec eux :
 
 1. Audit documentaire complet (grille : date · version active · périmètre · contradictions)
-2. Archivage des versions obsolètes hors du Skill
+2. Archivage des versions obsolètes hors de la Base de connaissance
 3. Désignation d'un responsable par famille de procédure
 4. Calendrier de révision trimestrielle + déclencheur sur modification
 
@@ -101,7 +101,7 @@ Deux mois plus tard, l'assistant est de nouveau en production. Les réponses son
 
 Ce qu'ils ont compris :
 
-La qualité d'un Skill de connaissance n'est pas la qualité du modèle IA. C'est la qualité de ce qu'on lui donne.
+La qualité d'une Base de connaissance du Projet n'est pas la qualité du modèle IA. C'est la qualité de ce qu'on lui donne.
 
 Garbage in, garbage out.
 

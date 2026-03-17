@@ -3,183 +3,111 @@
 ## Ce projet
 
 Formation IA Générative pour PME/ETI françaises.
-Objectif : rendre accessible une pratique structurée et industrialisable de l'IA
-conversationnelle à tout employé, sans expertise technique.
-
-**Positionnement : opérationnalisation, pas technologie.**
-**Public : PME/ETI françaises, non experts.**
-**Langue : français uniquement.**
+Positionnement : opérationnalisation, pas technologie.
+Public : PME/ETI françaises, non experts. Langue : français uniquement.
 
 ---
 
 ## Document de référence ABSOLU
 
 ```
-Prompting-final.md (racine du repo)
+Prompting-final-v2.md (racine du repo) — VERSION CORRIGÉE 2026-03
 ```
-
-Ce fichier est le référentiel pédagogique source de toute la formation.
-**Avant de produire tout contenu (script, quiz, exercice, post), lire les sections pertinentes.**
-
-Sections clés :
-- Section 1  → Nature du LLM, limites, règle d'or (pour M1)
-- Section 2  → Gouvernance et risques (pour M2)
-- Sections 4-6 → Progression 🟢🟡🔵🟣 et raisonnement (pour M4, M5)
-- Section 7  → Les 4 types de prompts (pour M4)
-- Section 8  → Données et RAG (pour M6, M9)
-- Section 9  → Agents IA (pour M10)
-- Section 10 → Cas complet Marc RH (référence de style et niveau pour TOUS les modules)
 
 ---
 
-## Structure du repo
+## ✅ PRODUCTION + VALIDATION — 100% COMPLÈTES
+
+| Module | Script | Quiz | Exercice | Post LI | Validation | Statut |
+|--------|:------:|:----:|:--------:|:-------:|:----------:|--------|
+| M1 | v2 2238m | ✅ | ✅ | ✅ | ✅ NbLM + Gemini | ✅ Prêt relecture orale |
+| M2 | v2 2375m | ✅ | ✅ | ✅ | ✅ NbLM + Gemini | ✅ Prêt relecture orale |
+| M3 | checklist v1 | ✅ | ✅ | ✅ | ✅ NbLM + Gemini | ✅ Prêt relecture orale |
+| M4 | v2 3246m | ✅ | ✅ | ✅ | ✅ NbLM + Gemini | ✅ Prêt relecture orale |
+| M5 | v2 1897m | ✅ | ✅ | ✅ | ✅ NbLM + Gemini | ✅ v3 post-Aristid |
+| M6 | v2 2517m | ✅ | ✅ | ✅ | ✅ NbLM + Gemini | ✅ Prêt relecture orale |
+| M7 | atelier-v2 1804m | ✅ | ✅ | ✅ | ✅ NbLM + Gemini | ✅ Prêt relecture orale |
+| M8 | v2 2632m | ✅ | ✅ | ✅ | ✅ NbLM + Gemini | ✅ Prêt relecture orale |
+| M9 | v2 2589m | ✅ | ✅ | ✅ | ✅ NbLM + Gemini | ✅ Prêt relecture orale |
+| M10 | v1 2693m | ✅ | ✅ | ✅ | ✅ NbLM + Gemini | ⏳ Conditionnel — décision S4 |
+| M11 | guide-v2 | ✅ | ✅ | ✅ | ✅ NbLM + Gemini | ✅ Prêt relecture orale |
+
+Commits : f38c453 · 3be3030 · 55632df
+Terminologie Skills→Projets/Instructions : 100% propagée ✅
+Ajouts finaux validés : _qualite/audits/validation-ajouts-finaux.md ✅
+
+---
+
+## ✅ SYSTÈME QUALITÉ — 100% COMPLET
+
+| Étape | Statut |
+|-------|--------|
+| Audits structurels + sémantiques (11 modules) | ✅ |
+| Contre-validations NotebookLM individuelles (11 modules) | ✅ |
+| Audit quiz + exercices + posts (11 modules) | ✅ |
+| Validation finale transversale NotebookLM (5 prompts) | ✅ |
+| Validation finale Gemini (4 prompts) | ✅ |
+| Validation ciblée ajouts finaux M9 + M11 | ✅ |
+
+---
+
+## ÉTAPES RESTANTES AVANT TOURNAGE
 
 ```
-Formation_prompting/
-├── CLAUDE.md                    ← ce fichier (lu automatiquement)
-├── Prompting-final.md           ← RÉFÉRENTIEL SOURCE
-├── README.md                    ← architecture du repo
-├── _instructions/               ← cerveau du projet
-│   ├── instructions.md          ✅ v1.2 complète
-│   ├── plan-execution.md        ✅ 12 semaines complet
-│   ├── decisions.md             ✅ journal des décisions
-│   ├── outils-claude-code-cowork.md  ✅
-│   └── analyse-skilljar-vs-formation.md  ✅
-├── _journal/                    ← trace hebdomadaire
-├── content/
-│   ├── modules/
-│   │   ├── N1/ (M1→M3)         ← Niveau 1 : Comprendre & situer
-│   │   ├── N2/ (M4→M7)         ← Niveau 2 : Prompting & méthode
-│   │   └── N3/ (M8→M11)        ← Niveau 3 : Configurer & déployer (power users)
-│   ├── quiz/                    ← quiz JSON pour le site
-│   └── populations/             ✅ 5 fiches créées
-├── linkedin/                    ← posts par semaine
-├── livrables/                   ← livre blanc, présentation Aristid
-└── site/                        ← Astro (en cours d'init)
+1-5. ✅ Production + validation + corrections — TERMINÉES
+6. ⏳ Relecture orale (~3h bloquées) — seule action non délégable
+7. ⏳ Aristid S4 — test terrain · décision M10 IN/OUT
+8. ⏳ v3 post-Aristid (M5 principalement)
+9. ⏳ Tournage M1 + M2 en premier
 ```
+
+### Protocole relecture orale (bloquer ~3h d'un coup)
+
+Scripts à lire dans l'ordre — chronomètre à la main :
+
+| Ordre | Module | Fichier | Durée cible |
+|-------|--------|---------|-------------|
+| 1 | M1 | script-v2.md | ~18-22 min |
+| 2 | M2 | script-v2.md | ~18-22 min |
+| 3 | M4 | script-v2.md | ~18-22 min |
+| 4 | M5 | script-v2.md | ~15-18 min |
+| 5 | M6 | script-v2.md | ~18-22 min |
+| 6 | M8 | script-v2.md | ~18-22 min |
+| 7 | M9 | script-v2.md | ~18-22 min |
+
+Grille pendant la lecture :
+```
+[ ] Passages où tu butes → reformuler
+[ ] Passages "trop écrits" → réécrire en oral
+[ ] Durée réelle : ___ min (cible : < 22 min)
+[ ] L'accroche me parlerait-elle si j'étais le manager de l'histoire ?
+```
+
+---
+
+## Roadmap V2 (post-lancement)
+
+Documentée dans _qualite/audits/validation-finale-transversale.md
+
+- Multimodalité native (image, audio, vidéo)
+- Module 0 "Business Case PME" / ROI formation
+- Souveraineté numérique — section dédiée M11
+- Option B "Mode dégradé" (vieux ERP sans API)
+- Charte IA simplifiée 1 page
+- "Small Data PME" + angle "libération burn-out"
+- PKM / Second Brain : 2 phrases dans M6 et M7
+- M10 si coupé en V1
 
 ---
 
 ## Conventions non négociables
 
-- **Nommage** : kebab-case, sans accents, sans espaces
-- **Ne jamais écraser** un fichier script-vX.md → créer script-v(X+1).md
-- **Toujours mettre à jour** CHANGELOG.md après modification d'un module
-- **Ton** : pédagogique, terrain, phrases courtes, sans jargon
-- **Public cible** : manager PME/ETI non expert, France
-
----
-
-## Structure standard d'un module (5 fichiers obligatoires)
-
-```
-Mxx-nom-module/
-├── script-v1.md      # Script vidéo (~2800 mots, ~20 min)
-├── quiz.md           # 8 questions QCM + corrigé, seuil 70%
-├── exercice.md       # 3 exercices pratiques autonomes
-├── post-linkedin.md  # 3 variantes (court / carrousel / storytelling)
-└── CHANGELOG.md      # Historique des versions
-```
-
-Exception modules Baseline (M3, M7, M11) :
-- Pas de script vidéo → remplacé par checklist.md ou guide.md
-- Format outil à consulter, pas à regarder
-
----
-
-## Template script (à respecter pour chaque module vidéo)
-
-```markdown
-# Mxx — [Titre]
-> Niveau : 🟢/🟡/🔵 · Format : Vidéo · Durée cible : ~20 min
-> Version : v1 · Statut : BROUILLON
-
-## Métadonnées
-[tableau : compétence cible, public, prérequis, module suivant, durée]
-
-## Structure du script
-[plan des 5 sections avec durées]
-
-## 1. Accroche terrain (2 min)
-[À caméra — ton direct, situation réelle PME]
-
-## 2-4. [Contenu principal]
-[Sections avec slides simples, exemples concrets, règles clés]
-
-## 5. Message de clôture (3 min)
-[Retour caméra — synthèse + transition vers le module suivant]
-
-## Notes de production
-[Ton, rythme, visuels, points forts à soigner]
-```
-
----
-
-## Référentiel pédagogique (6 compétences)
-
-| Code | Compétence | Module principal |
-|------|------------|-----------------|
-| C1 | Comprendre ce qu'est réellement un LLM | M1 |
-| C2 | Identifier et gérer les 3 risques majeurs | M2 |
-| C3 | Rédiger un prompt selon les 4 types d'intention | M4 |
-| C4 | Appliquer la progression 🟢🟡🔵🟣 sur un cas réel | M5 |
-| C5 | Sécuriser les données en contexte professionnel | M2, M6 |
-| C6 | Choisir le bon modèle selon le niveau de risque | M3, M8 |
-
----
-
-## État d'avancement — mis à jour 2026-03
-
-### _instructions/
-| Fichier | Statut |
-|---------|--------|
-| instructions.md | ✅ v1.2 |
-| plan-execution.md | ✅ 12 semaines |
-| decisions.md | ✅ |
-| outils-claude-code-cowork.md | ✅ |
-| analyse-skilljar-vs-formation.md | ✅ |
-
-### Modules
-| Module | Script | Quiz | Exercice | Post LI | CHANGELOG |
-|--------|--------|------|----------|---------|-----------|
-| M1 — Comprendre le LLM | ✅ v1 | ✅ | ✅ | ✅ | ✅ |
-| M2 — Risques & gouvernance | ✅ v1 | ✅ | ✅ | ✅ | ✅ |
-| M3 — Baseline N1 | ❌ | ❌ | ❌ | ❌ | ❌ |
-| M4 — 4 types de prompts | ❌ | ❌ | ❌ | ❌ | ❌ |
-| M5 — Méthode niveaux | ❌ | ❌ | ❌ | ❌ | ❌ |
-| M6 — Connaissance capitalisée | ❌ | ❌ | ❌ | ❌ | ❌ |
-| M7 — Baseline N2 | ❌ | ❌ | ❌ | ❌ | ❌ |
-| M8 — Assistant personnalisé | ❌ | ❌ | ❌ | ❌ | ❌ |
-| M9 — Skills & bases | ❌ | ❌ | ❌ | ❌ | ❌ |
-| M10 — Intro MCP (conditionnel) | ❌ | ❌ | ❌ | ❌ | ❌ |
-| M11 — Baseline N3 | ❌ | ❌ | ❌ | ❌ | ❌ |
-
-### Autres
-| Élément | Statut |
-|---------|--------|
-| Populations (5 fiches) | ✅ |
-| Quiz d'orientation (6 questions) | ❌ à coder en JS |
-| Quiz N1 consolidé | ❌ |
-| Quiz N2 consolidé | ❌ |
-| Quiz N3 consolidé | ❌ |
-| Site Astro | ❌ en cours (tâche B) |
-| Git initialisé | ❌ en cours (tâche B) |
-| Livre blanc | ❌ S8 |
-
----
-
-## Prochaines étapes (selon plan-execution.md)
-
-**En cours — Tâche B :**
-- Init git + premier commit
-- Init Astro dans /site
-
-**Après tâche B — Semaine 2 suite :**
-- M3 Baseline N1 (checklist.md + quiz + exercice + post + CHANGELOG)
-- Scripts M4 et M5 (cœur du N2)
-
----
+- Référentiel source : Prompting-final-v2.md (pas v1)
+- Ne jamais écraser script-vX.md → créer script-v(X+1).md
+- Toujours mettre à jour CHANGELOG.md après modification
+- Longueur cible scripts : ~2300 mots
+- Ton : pédagogique, terrain, phrases courtes, sans jargon
 
 ## Règle de priorité si retard
 
-Couper M10 (MCP) en V1. **Jamais couper M3, M7, M11 (Baselines).**
+Couper M10 (MCP). **Jamais couper M3, M7, M11.**

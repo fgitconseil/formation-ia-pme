@@ -13,7 +13,8 @@
 | Pilote terrain | S4 | Aristid + feedback | Deck + synthèse |
 | Contenu N2 | S5–S6 | M4, M5, M6, M7 | N2 complet |
 | Contenu N3 | S7–S8 | M8, M9, M10(?) | N3 complet |
-| Intégration | S9–S10 | Site + quiz JSON | Site fonctionnel |
+| Intégration | S9 | M11 + quiz JSON + **relecture orale** | Contenu prêt tournage |
+| Site final | S10 | Site production-ready | Site complet |
 | Validation | S11 | Beta test + révisions | Contenu stabilisé |
 | Lancement | S12 | Go live | D1 en ligne |
 
@@ -209,8 +210,8 @@ Publier Variante B de M2 (carrousel) — "3 risques que votre équipe prend cett
 
 ---
 
-### S9 — Module M11 + quiz JSON complets
-> Objectif : clore le contenu, préparer l'intégration finale
+### S9 — M11 + quiz JSON + session relecture orale
+> Objectif : clore le contenu et valider tous les scripts pour le tournage
 
 **Tâches M11 — Baseline N3**
 - [ ] Créer exercice de synthèse M11 (plan de déploiement IA — projet final)
@@ -223,13 +224,41 @@ Publier Variante B de M2 (carrousel) — "3 risques que votre équipe prend cett
 - [ ] Vérifier la cohérence de tous les quiz JSON (format uniforme)
 - [ ] Tester le quiz d'orientation sur 5 profils différents
 
+**🎙️ SESSION RELECTURE ORALE — Bloquer une demi-journée**
+> Niveau 2 du protocole qualité · ~3h · À faire en une seule session
+> Grille : _qualite/protocole-qualite.md · Résultats : _qualite/audits/
+
+Lire chaque script à voix haute, dans l'ordre, en se chronométrant.
+8 scripts vidéo × ~20 min = ~2h40 de lecture + 20 min de notes = ~3h total.
+
+- [ ] M1 — lire à voix haute · noter durée réelle · signaler les passages qui butent
+- [ ] M2 — idem
+- [ ] M4 — idem
+- [ ] M5 — idem (⚠️ section 4 dense à 3 min — surveiller)
+- [ ] M6 — idem
+- [ ] M8 — idem
+- [ ] M9 — idem
+- [ ] M10 — idem (si IN)
+- [ ] Pour chaque module : remplir la fiche dans _qualite/audits/[Mxx]-relecture.md
+- [ ] Scripts hors seuil (< 18 min ou > 22 min) → créer v2 immédiatement
+
+**Ce qu'on note pendant la relecture :**
+```
+[ ] Passages où tu butes → à reformuler
+[ ] Passages qui sonnent "trop écrit" → à réécrire en oral
+[ ] Durée réelle chronométrée : ___ min
+[ ] L'accroche te parle-t-elle si tu es le manager de l'histoire ?
+[ ] Références légales à marquer [exemple simulé] si ce n'est pas fait
+```
+
 **Critère de fin de semaine**
 ✅ Tous les 11 modules ont leurs fichiers complets
 ✅ Tous les quiz JSON sont générés et validés
-✅ Le parcours N3 complet est navigable
+✅ Session relecture orale complète — tous les scripts à statut VALIDÉ RELECTURE
+✅ Scripts hors durée → v2 créées
 
 **Post LinkedIn associé**
-Aucun — semaine d'intégration, pas de publication
+Aucun — semaine d'intégration et relecture, pas de publication
 
 ---
 
@@ -328,3 +357,4 @@ Post de lancement dédié — annoncer la mise en ligne de la formation
 | Livre blanc PDF | 1 version téléchargeable |
 | Posts LinkedIn publiés | 8 minimum |
 | Bêta-testeurs ayant terminé N1 | 3 minimum |
+| Scripts validés relecture orale | 8/8 avant tournage |
