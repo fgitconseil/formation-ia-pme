@@ -1,48 +1,16 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-const base = import.meta.env.BASE_URL;
+import ReviewLayout from '../../layouts/ReviewLayout.astro';
+import ModuleTabs from '../../components/ModuleTabs.astro';
+import { readMarkdownFile, toHtml } from '../../lib/modules';
+
+const dir = 'N2/M6-connaissance-capitalisee';
+const sections = [
+  { id: 'script',   label: 'Script',       html: toHtml(readMarkdownFile(`${dir}/script-v2.md`)) },
+  { id: 'quiz',     label: 'Quiz',         html: toHtml(readMarkdownFile(`${dir}/quiz.md`)) },
+  { id: 'exercice', label: 'Exercice',     html: toHtml(readMarkdownFile(`${dir}/exercice.md`)) },
+  { id: 'post',     label: 'Post LinkedIn',html: toHtml(readMarkdownFile(`${dir}/post-linkedin.md`)) },
+];
 ---
-<Layout title="Capitaliser sa connaissance" description="Module 6- — Capitaliser sa connaissance">
-  <style>
-    .module-header { padding: 2rem 0 1.5rem; border-bottom: 1px solid #eee; margin-bottom: 2rem; }
-    .breadcrumb { font-size: 0.85rem; color: #888; margin-bottom: 1rem; }
-    .breadcrumb a { color: #888; text-decoration: none; }
-    .breadcrumb a:hover { text-decoration: underline; }
-    .badge { display: inline-block; font-size: 0.75rem; font-weight: 600; padding: 3px 8px; border-radius: 3px; margin-right: 0.5rem; vertical-align: middle; }
-    .n1 { background: #dcfce7; color: #166534; }
-    .n2 { background: #fef9c3; color: #713f12; }
-    .n3 { background: #ede9fe; color: #4c1d95; }
-    .module-header h1 { font-size: 1.75rem; margin-bottom: 0.5rem; }
-    .meta-table { border-collapse: collapse; width: 100%; margin: 1.5rem 0; font-size: 0.9rem; }
-    .meta-table th, .meta-table td { text-align: left; padding: 0.5rem 0.75rem; border: 1px solid #e5e5e5; }
-    .meta-table th { background: #f9f9f9; font-weight: 600; width: 35%; }
-    .content-placeholder { background: #f5f5f5; border: 2px dashed #ccc; border-radius: 8px; padding: 2rem; color: #888; margin: 2rem 0; }
-    .content-available { background: #f0fdf4; border-color: #86efac; color: #166534; }
-    .nav-modules { display: flex; gap: 1rem; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #eee; }
-    .nav-modules a { padding: 0.6rem 1.2rem; border: 1px solid #e5e5e5; border-radius: 5px; text-decoration: none; color: #1a1a1a; font-size: 0.9rem; }
-    .nav-modules a:hover { border-color: #1a1a1a; }
-  </style>
-
-  <div class="module-header">
-    <div class="breadcrumb">
-      <a href={base}>Accueil</a> › Modules › <span>Capitaliser sa connaissance</span>
-    </div>
-    <h1><span class="badge n2">N2</span>Capitaliser sa connaissance</h1>
-    <p style="color:#555">Statut : 🔜 À venir</p>
-  </div>
-
-  <table class="meta-table">
-    <tr><th>Compétence cible</th><td>C4, C5 — Organisation et sécurisation</td></tr>
-    <tr><th>Prérequis</th><td>M5 complété</td></tr>
-    <tr><th>Module suivant</th><td>M7 — Évaluation de base N2</td></tr>
-    <tr><th>Format</th><td>Vidéo ~20 min + Quiz + Exercice pratique</td></tr>
-  </table>
-
-  <div class="content-placeholder">
-      <p>Ce module sera disponible prochainement.</p>
-    </div>
-
-  <div class="nav-modules">
-    <a href={base}>← Retour à l'accueil</a>
-  </div>
-</Layout>
+<ReviewLayout title="M6 — Capitaliser sa connaissance">
+  <ModuleTabs module="M6" titre="Capitaliser sa connaissance" niveau="N2" sections={sections} />
+</ReviewLayout>

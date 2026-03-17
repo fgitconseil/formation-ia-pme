@@ -1,0 +1,135 @@
+---
+interface Props {
+  title: string;
+}
+const { title } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+const modules = [
+  { slug: 'm1-comprendre-llm',          label: "M1 — Comprendre l'IA",     statut: '✅' },
+  { slug: 'm2-risques-gouvernance',      label: 'M2 — Risques & gouvernance', statut: '✅' },
+  { slug: 'm3-baseline-n1',             label: 'M3 — Baseline N1',          statut: '✅' },
+  { slug: 'm4-4types-prompts',          label: 'M4 — 4 types de prompts',   statut: '✅' },
+  { slug: 'm5-methode-niveaux',         label: 'M5 — Méthode niveaux',      statut: '✅' },
+  { slug: 'm6-connaissance-capitalisee', label: 'M6 — Capitaliser',          statut: '✅' },
+  { slug: 'm7-baseline-n2',             label: 'M7 — Baseline N2',          statut: '✅' },
+  { slug: 'm8-assistant-personnalise',  label: 'M8 — Assistant perso',      statut: '✅' },
+  { slug: 'm9-skills-bases-connaissance', label: 'M9 — Projets & bases',    statut: '✅' },
+  { slug: 'm10-intro-mcp',             label: 'M10 — MCP',                  statut: '⏳' },
+  { slug: 'm11-baseline-n3',           label: 'M11 — Baseline N3',          statut: '✅' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} — Review Formation IA</title>
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      body { font-family: system-ui, -apple-system, sans-serif; color: #1a1a1a; line-height: 1.6; background: #fff; }
+
+      .review-header {
+        background: #1a1a1a;
+        color: #fff;
+        padding: 0.75rem 1.5rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+      .review-header a { color: #aaa; text-decoration: none; margin-left: auto; font-size: 0.8rem; }
+      .review-header a:hover { color: #fff; }
+
+      .layout {
+        display: flex;
+        min-height: calc(100vh - 44px - 48px);
+      }
+
+      .sidebar {
+        width: 230px;
+        flex-shrink: 0;
+        border-right: 1px solid #e5e5e5;
+        padding: 1.25rem 0;
+        position: sticky;
+        top: 44px;
+        height: calc(100vh - 44px);
+        overflow-y: auto;
+      }
+      .sidebar-title {
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: #888;
+        padding: 0 1rem 0.75rem;
+      }
+      .sidebar-link {
+        display: flex;
+        gap: 0.4rem;
+        align-items: baseline;
+        padding: 0.35rem 1rem;
+        text-decoration: none;
+        color: #444;
+        font-size: 0.82rem;
+        border-left: 2px solid transparent;
+        transition: background 0.1s;
+      }
+      .sidebar-link:hover { background: #f5f5f5; color: #1a1a1a; }
+      .sidebar-link.active { background: #f0f0f0; color: #1a1a1a; border-left-color: #1a1a1a; font-weight: 500; }
+      .sidebar-link .statut { flex-shrink: 0; font-size: 0.75rem; }
+
+      .main-content {
+        flex: 1;
+        min-width: 0;
+        padding: 2rem 2.5rem;
+        max-width: 900px;
+      }
+
+      .review-footer {
+        border-top: 1px solid #e5e5e5;
+        padding: 0.9rem 1.5rem;
+        font-size: 0.8rem;
+        color: #888;
+        background: #fafafa;
+      }
+      .review-footer code { font-size: 0.8rem; background: #eee; padding: 1px 4px; border-radius: 3px; }
+      .review-footer strong { color: #c00; }
+    </style>
+  </head>
+  <body>
+    <header class="review-header">
+      <span>🔍 Review Formation IA PME — Session relecture orale</span>
+      <a href={base}>← Accueil</a>
+    </header>
+
+    <div class="layout">
+      <nav class="sidebar">
+        <div class="sidebar-title">Modules</div>
+        {modules.map(m => (
+          <a
+            href={`${base}modules/${m.slug}/`}
+            class:list={['sidebar-link', { active: currentPath.includes(m.slug) }]}
+          >
+            <span class="statut">{m.statut}</span>
+            <span>{m.label}</span>
+          </a>
+        ))}
+      </nav>
+
+      <main class="main-content">
+        <slot />
+      </main>
+    </div>
+
+    <footer class="review-footer">
+      Fichiers source dans <code>content/modules/</code> — <strong>NE PAS PUBLIER</strong>
+    </footer>
+  </body>
+</html>
