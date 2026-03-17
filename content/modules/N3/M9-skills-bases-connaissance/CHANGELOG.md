@@ -1,5 +1,21 @@
 # CHANGELOG — M9 Skills et bases de connaissance
 
+## v2 — 2026-03 · BROUILLON · post-NotebookLM + ref v2
+
+### Corrections intégrées
+- 🔴 Intro Section 2 : phrase de démarcation Projets claude.ai vs Skills Claude Code
+- 🔴 Terminologie : "Skill d'instruction" → "Instructions de Projet" · "Skill de connaissance" → "Base de connaissance du Projet" · "Skill" (outil) → "Projet" — partout dans le script
+- 🔴 Exemple structuration : annoté [exemple illustratif]
+- 🟡 Gabarit "Project Instructions" copiable 5 champs (Rôle · Contexte · Périmètre · Format · Contraintes) — Section 2
+- 🟡 Section 6 : M10 = équipes IT/architectes · manager = prescripteur de besoins
+- 🟡 Exemple concret MCP : "Claude lit Salesforce / écrit dans Jira sans copier-coller"
+- 🟡 Paragraph Hooks : "Instructions = Conseil · Hook = Loi" — fin Section 2
+- 🟢 Nuance RAG : "données nécessaires mais pas suffisantes" — Section 4
+
+### Référence : _qualite/audits/M9-contre-validation-externe.md
+
+---
+
 ## v1 — 2026-03 · BROUILLON
 
 ### Fichiers créés
