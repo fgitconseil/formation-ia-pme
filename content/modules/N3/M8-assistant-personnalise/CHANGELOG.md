@@ -26,3 +26,27 @@
 - Quiz : PRÊT
 - Exercice : PRÊT
 - Post LinkedIn : PRÊT
+
+---
+
+## v2 — 2026-03 · BROUILLON · contre-validation externe
+
+### Extension structurelle
+- ~2119 mots (v1) → ~2632 mots (v2)
+- Structure préservée · section 3 enrichie (6 min vs 5 min) · clôture enrichie
+
+### Enrichissements intégrés
+- 🔴 Inverser terminologie : "instructions permanentes (appelées system prompt dans la documentation technique)" — Section 2 titre + tout le script
+- 🔴 Ajouter instruction d'auto-vérification dans le gabarit : "Avant de répondre, vérifie systématiquement si ta réponse respecte le périmètre défini dans tes règles permanentes." — Section 3 gabarit
+- 🟡 Ajouter 2e exemple concret : assistant RH recrutement PME industrielle 80 personnes — Section 3
+- 🟡 Ajouter section "Aller plus loin — CLAUDE.md" en clôture (3 niveaux Global/Projet/Local + lien équivalent fonctionnel) — Section 5
+- Gabarit mis à jour : ligne d'auto-vérification en première position, avant les règles permanentes
+
+### Référence : _qualite/audits/M8-contre-validation-externe.md
+
+---
+
+## v3 — à venir (post-beta S11)
+
+- Ajuster les exemples selon les retours terrain (juridique vs RH — lequel résonne le mieux)
+- Relecture orale pour confirmer durée ≥ 18 min
