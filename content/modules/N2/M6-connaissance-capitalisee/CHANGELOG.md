@@ -30,3 +30,20 @@
 - Audit qualité (grille-evaluation.md)
 - Relecture orale + chronométrage
 - Extension éventuelle du script si < 18 min oral
+
+---
+
+## v2 — 2026-03 · BROUILLON · contre-validation externe + extension durée
+
+### Extension structurelle
+- ~1850 mots (v1) → ~2517 mots (v2)
+- Structure 5 sections préservée · section 4 étendue à 6 min
+
+### Enrichissements intégrés
+- 🔴 Remplacer "Skills" → "Instructions de Projet" / "Instructions personnalisées" dans tout le script
+- 🟡 Ajouter exemple 1 : analyse de conformité contractuelle (RAG + prompt chaining en 3 étapes) — Section 4
+- 🟡 Ajouter exemple 2 : tableau de bord Artifact (React/HTML interactif, filtrable) — Section 3
+- 🟢 Gabarits de prompts en blocs visuels distincts avec titre "[Gabarit — à copier]"
+- Tableau récapitulatif 3 outils mis à jour (RAG / Instructions de Projet)
+
+### Référence : _qualite/audits/M6-contre-validation-externe.md
