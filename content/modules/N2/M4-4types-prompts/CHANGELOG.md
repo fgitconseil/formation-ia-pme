@@ -14,7 +14,26 @@
 
 ---
 
-## v2 — à venir (post-Aristid S4)
+## v2 — 2026-03 · BROUILLON · contre-validation externe + extension structurelle
+
+### Extension structurelle
+- ~1450 mots (v1) → ~3246 mots (v2)
+- Structure 6 sections préservée · durée ajustée (4+5+4+4+5 min)
+
+### Enrichissements intégrés
+- 🔴 Expliquer SWOT (Forces·Faiblesses·Opportunités·Menaces) et PESTEL (Politique·Économique·Social·Technologique·Environnemental·Légal) + formulation alternative — Section 3
+- 🟡 Ajouter champ "Exemples (few-shot)" dans gabarit Production + explication few-shot — Section 2
+- 🟡 Ajouter champ "Réflexion" (Chain of Thought / balises `<thinking>`) dans gabarits Exploration et Vérification — Sections 3 et 5
+- 🟡 Ajouter 5e type "Prompt Agentique" en transition vers N3 (M8/M10) — Section 6
+- 🟡 Ajouter mapping progression 🟢🟡🔵🟣 via les 4 types — Section 6
+- 🟢 Mention RAG dans Exploration pour pallier le cut-off — Section 3
+- 🟢 Ajouter champ "Suivi" (State Tracking) dans gabarit Structuration — Section 4
+
+### Référence : _qualite/audits/M4-contre-validation-externe.md
+
+---
+
+## v3 — à venir (post-Aristid S4)
 
 - Ajuster les exemples si certains secteurs ne résonnent pas
 - Enrichir le gabarit d'exploration si les apprenants ont du mal à l'appliquer
