@@ -31,6 +31,15 @@
 
 ---
 
+## v2.1 — 2026-03 · Propagation terminologie quiz Q6 + renvoi + post
+
+### Corrections
+- Quiz Q6 réponse C : "Un Skill 'Préparation réunion client'" → "Des Instructions de Projet 'Préparation réunion client'" · corrigé mis à jour
+- Quiz bas de page : ajout renvoi "Pour aller plus loin : M8 — Configurer un assistant personnalisé"
+- Post LinkedIn variante B slide 4 : "Skills dans mon outil" → "Instructions de Projet dans mon outil"
+
+---
+
 ## v2 — 2026-03 · BROUILLON · contre-validation externe (corrections légères)
 
 ### Fichiers créés

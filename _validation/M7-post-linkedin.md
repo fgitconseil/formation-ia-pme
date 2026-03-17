@@ -50,7 +50,7 @@ J'ai trouvé 3 erreurs factuelles dans des documents que j'avais failli envoyer.
 🔍 Découverte 3 : Mes meilleurs prompts étaient réutilisables à 80%
 Pas la peine d'en écrire de nouveaux à chaque fois.
 Ficher, versionner, améliorer.
-→ 2 prompts sont maintenant des Skills dans mon outil.
+→ 2 prompts sont maintenant des Instructions de Projet dans mon outil.
 
 **Slide 5**
 🔍 Découverte 4 : L'itération est plus rapide que la perfection

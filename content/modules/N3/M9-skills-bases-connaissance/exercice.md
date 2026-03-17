@@ -1,4 +1,4 @@
-# Exercices — M9 Skills et bases de connaissance
+# Exercices — M9 Projets et bases de connaissance
 > 3 exercices pratiques · Durée totale estimée : ~50 min
 > Public : référents IA · power users
 
@@ -7,10 +7,10 @@
 ## Exercice 1 — Auditer une base documentaire existante (20 min)
 
 ### Objectif
-Évaluer la fiabilité d'une base documentaire réelle avant de l'intégrer dans un Skill de connaissance.
+Évaluer la fiabilité d'une base documentaire réelle avant de l'intégrer dans une Base de connaissance du Projet.
 
 ### Contexte
-Dans le module M9, vous avez appris que "garbage in, garbage out" s'applique directement aux Skills de connaissance. Avant de connecter un document à un assistant IA, vous devez savoir s'il est fiable.
+Dans le module M9, vous avez appris que "garbage in, garbage out" s'applique directement aux Bases de connaissance du Projet. Avant de connecter un document à un assistant IA, vous devez savoir s'il est fiable.
 
 Cet exercice vous donne une grille d'audit structurée pour évaluer chaque document.
 
@@ -18,7 +18,7 @@ Cet exercice vous donne une grille d'audit structurée pour évaluer chaque docu
 
 **Étape 1 — Choisir votre base documentaire (5 min)**
 
-Identifiez un ensemble de 5 à 10 documents que vous envisagez d'intégrer dans un Skill.
+Identifiez un ensemble de 5 à 10 documents que vous envisagez d'intégrer dans une Base de connaissance du Projet.
 
 Exemples :
 - Procédures internes (qualité, RH, opérations)
@@ -51,26 +51,26 @@ Pour chaque document, remplissez une ligne de la grille :
 - Nombre de documents ⚠️ À réviser : ___
 - Nombre de documents ❌ À exclure : ___
 
-**Question de réflexion** : Si vous aviez intégré tous ces documents sans audit, combien de sources incorrectes aurait contenu votre Skill ?
+**Question de réflexion** : Si vous aviez intégré tous ces documents sans audit, combien de sources incorrectes aurait contenu votre Base de connaissance ?
 
 ---
 
-## Exercice 2 — Rédiger un Skill simple pour votre domaine (20 min)
+## Exercice 2 — Rédiger des Instructions de Projet pour votre domaine (20 min)
 
 ### Objectif
-Créer un Skill de connaissance opérationnel en utilisant le gabarit en 5 champs.
+Créer des Instructions de Projet opérationnelles en utilisant le gabarit en 5 champs.
 
 ### Contexte
-Dans le script M9, vous avez vu que l'audit M9 identifie un manque : pas de gabarit de Skill d'instruction copiable clé en main. Cet exercice le comble.
+Dans le script M9, vous avez vu qu'il manque souvent un gabarit d'Instructions de Projet copiable clé en main. Cet exercice le comble.
 
-Un Skill bien rédigé dit à l'IA quoi faire, avec quoi, dans quel périmètre, et ce qu'elle ne doit pas faire.
+Des Instructions de Projet bien rédigées disent à l'IA quoi faire, avec quoi, dans quel périmètre, et ce qu'elle ne doit pas faire.
 
 ### Gabarit copiable
 
 ```
---- GABARIT SKILL ---
+--- GABARIT INSTRUCTIONS DE PROJET ---
 
-Nom du Skill        : [Nom court et descriptif · ex : "Analyse contrats fournisseurs"]
+Nom                 : [Nom court et descriptif · ex : "Analyse contrats fournisseurs"]
 
 Contexte            : [Pour qui ce Skill est-il conçu ? Dans quelle organisation ?
                        Quel est le niveau d'expertise de l'utilisateur ?
@@ -99,13 +99,13 @@ Limites             : [Ce que ce Skill ne fait pas · Ce qu'il renvoie vers un e
 
 1. Choisissez un cas d'usage récurrent dans votre travail (ou utilisez le cas "Analyse contrats" comme exercice)
 2. Remplissez les 5 champs du gabarit
-3. Soumettez votre Skill dans votre outil IA et testez-le avec une demande réelle
+3. Soumettez vos Instructions de Projet dans votre outil IA et testez-les avec une demande réelle
 4. Notez ce qui fonctionne et ce qui doit être ajusté — c'est votre v1
 
-**Exemple de Skill complété :**
+**Exemple d'Instructions de Projet complétées :**
 
 ```
-Nom du Skill        : Réponses aux objections commerciales
+Nom                 : Réponses aux objections commerciales
 
 Contexte            : PME de distribution de matériaux de construction · utilisateur = commercial terrain
                       L'utilisateur n'a pas toujours accès à ses documents pendant les rendez-vous
@@ -124,22 +124,22 @@ Limites             : Ne traite pas les demandes de remise supérieures à 15% (
 
 ---
 
-## Exercice 3 — Planifier la maintenance du Skill (10 min)
+## Exercice 3 — Planifier la maintenance de la Base de connaissance (10 min)
 
 ### Objectif
-Créer un calendrier de révision pour votre Skill — la condition pour qu'il reste fiable dans le temps.
+Créer un calendrier de révision pour votre Base de connaissance — la condition pour qu'elle reste fiable dans le temps.
 
 ### Contexte
-Un Skill non maintenu se dégrade sans signal visible. La maintenance est ce qui transforme un projet IA en infrastructure durable.
+Une Base de connaissance non maintenue se dégrade sans signal visible. La maintenance est ce qui transforme un projet IA en infrastructure durable.
 
 ### Instructions
 
-Remplissez le plan de maintenance pour le Skill que vous venez de créer :
+Remplissez le plan de maintenance pour la Base de connaissance que vous venez de créer :
 
 ```
---- PLAN DE MAINTENANCE SKILL ---
+--- PLAN DE MAINTENANCE BASE DE CONNAISSANCE ---
 
-Nom du Skill         : [Nom]
+Nom de la Base de connaissance : [Nom]
 Propriétaire         : [Nom + rôle — responsable des révisions]
 
 Fréquence de révision planifiée :
@@ -171,6 +171,6 @@ Questions de référence pour les tests de régression :
 
 ### Conseil
 
-Les questions de référence servent à vérifier que le Skill répond correctement après chaque révision. Ce sont des tests de non-régression.
+Les questions de référence servent à vérifier que la Base de connaissance répond correctement après chaque révision. Ce sont des tests de non-régression.
 
 Choisissez des questions représentatives de vos vrais cas d'usage — pas des questions trop simples. L'objectif est de détecter un problème avant que les utilisateurs le signalent.

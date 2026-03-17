@@ -109,4 +109,4 @@ La discipline documentaire qui précède le déploiement IA n'est pas un luxe po
 
 ---
 
-*Formation IA Générative pour PME/ETI françaises — M9 : structurer ses sources et gouverner ses Skills de connaissance.*
+*Formation IA Générative pour PME/ETI françaises — M9 : structurer ses sources et gouverner ses Bases de connaissance du Projet.*

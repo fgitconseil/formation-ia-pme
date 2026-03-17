@@ -68,10 +68,10 @@ D. Il n'est accessible qu'aux grandes entreprises avec des ressources IT dédié
 
 ## Question 6
 
-Un Skill dans Claude, c'est :
+Les Instructions de Projet dans claude.ai, c'est :
 
 A. Une fonctionnalité technique réservée aux développeurs
-B. Un ensemble d'instructions sauvegardées et réutilisables dans n'importe quelle conversation
+B. Un ensemble d'instructions sauvegardées et réutilisables dans n'importe quelle conversation du Project
 C. Un outil de vérification automatique de la qualité d'un prompt
 D. Un mode de conversation spécialisé qui remplace les types de prompts du M4
 
@@ -108,11 +108,11 @@ D. Les modèles IA ne peuvent traiter que des données structurées (tableaux), 
 | 3 | **B** | Un Artifact est un livrable structuré autonome — pas une réponse en prose, pas un prompt sauvegardé. |
 | 4 | **C** | La formulation "Produis un tableau... format Markdown" demande un livrable directement exploitable. Les options A, B, D demandent des explications, pas un livrable. |
 | 5 | **B** | Le RAG garantit l'accessibilité contextuelle, pas l'exactitude. La discipline 🟡 reste indispensable même avec une base documentaire connectée. |
-| 6 | **B** | Un Skill est un ensemble d'instructions réutilisables, accessible depuis n'importe quelle conversation. Ce n'est pas une fonctionnalité technique avancée. |
+| 6 | **B** | Les Instructions de Projet sont un ensemble d'instructions réutilisables, accessibles depuis n'importe quelle conversation du Project. Ce n'est pas une fonctionnalité technique avancée. |
 | 7 | **B** | Un Project par périmètre distinct. Mélanger contrats fournisseurs et politique RH dans le même Project réduit la précision des réponses. |
 | 8 | **B** | L'IA généraliste ne connaît pas vos documents internes. Il faut les fournir — dans un Project, via RAG, ou directement dans le prompt. |
 
 ---
 
 **Score ≥ 6/8 → Niveau 2 validé pour ce module · Passez à M7**
-**Score < 6/8 → Revoir les sections Projects, Artifacts, ou RAG/Skills dans le script M6**
+**Score < 6/8 → Revoir les sections Projects, Artifacts, RAG ou Instructions de Projet dans le script M6**

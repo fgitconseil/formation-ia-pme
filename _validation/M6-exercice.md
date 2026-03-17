@@ -109,49 +109,49 @@ Un prompt d'Artifact rédigé + le livrable obtenu évalué selon les 4 critère
 
 ---
 
-## Exercice 3 — Identifier 3 usages Skills dans votre travail (10 min)
+## Exercice 3 — Identifier 3 usages d'Instructions de Projet dans votre travail (10 min)
 
 ### Objectif
-Repérer les tâches récurrentes qui justifient un Skill — pour arrêter de reconfigurer les mêmes instructions.
+Repérer les tâches récurrentes qui justifient des Instructions de Projet — pour arrêter de reconfigurer les mêmes instructions.
 
 ### Contexte
-Un Skill est un ensemble d'instructions sauvegardées réutilisables.
-Il est utile quand vous faites régulièrement la même catégorie de tâche et que vous re-configurez les mêmes paramètres à chaque fois.
+Les Instructions de Projet sont un ensemble d'instructions sauvegardées réutilisables.
+Elles sont utiles quand vous faites régulièrement la même catégorie de tâche et que vous re-configurez les mêmes paramètres à chaque fois.
 
 ### Instructions
 
-Listez 3 tâches récurrentes dans votre travail qui bénéficieraient d'un Skill.
+Listez 3 tâches récurrentes dans votre travail qui bénéficieraient d'Instructions de Projet.
 
 Pour chaque tâche, remplissez ce tableau :
 
-**Skill 1**
+**Instructions de Projet 1**
 | Champ | Réponse |
 |-------|---------|
-| Nom du Skill | Ex : "Compte rendu réunion RH" |
+| Nom | Ex : "Compte rendu réunion RH" |
 | Tâche couverte | Ex : Transformer des notes en CR structuré |
 | Instructions clés (2-3 règles) | Ex : "Sections : Contexte / Décisions / Actions · Format Markdown · Ne rien supprimer" |
 | Fréquence d'usage estimée | Ex : 2-3 fois par semaine |
 
-**Skill 2**
+**Instructions de Projet 2**
 | Champ | Réponse |
 |-------|---------|
-| Nom du Skill | |
+| Nom | |
 | Tâche couverte | |
 | Instructions clés (2-3 règles) | |
 | Fréquence d'usage estimée | |
 
-**Skill 3**
+**Instructions de Projet 3**
 | Champ | Réponse |
 |-------|---------|
-| Nom du Skill | |
+| Nom | |
 | Tâche couverte | |
 | Instructions clés (2-3 règles) | |
 | Fréquence d'usage estimée | |
 
 ### Question de réflexion
 
-Parmi vos 3 Skills identifiés, lequel vous ferait gagner le plus de temps cette semaine ?
-Créez-le maintenant dans votre outil IA.
+Parmi vos 3 Instructions de Projet identifiées, lesquelles vous feraient gagner le plus de temps cette semaine ?
+Créez-les maintenant dans votre outil IA.
 
 ### Livrable
-3 fiches Skills remplies + 1 Skill effectivement créé dans votre outil.
+3 fiches Instructions de Projet remplies + 1 Instructions de Projet effectivement créées dans votre outil.

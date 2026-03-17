@@ -22,7 +22,7 @@ Mais il existe des outils pour changer ça.
 
 **Les Artifacts** : au lieu d'une réponse en prose, demandez directement le livrable — tableau, checklist, brief, compte rendu. Zéro retraitement.
 
-**Les Skills** : une fois configuré, votre format standard est disponible dans toutes vos conversations.
+**Les Instructions de Projet** : une fois configurées, votre format standard est disponible dans toutes vos conversations du Project.
 
 Ce n'est pas une astuce. C'est une discipline de travail.
 
@@ -43,7 +43,7 @@ Ce n'est pas une astuce. C'est une discipline de travail.
 
 **Slide 4**
 ❌ Vous reconfigurez les mêmes paramètres pour chaque compte rendu
-✅ Un Skill "Compte rendu" — appelé en une ligne, toujours le même format
+✅ Des Instructions de Projet "Compte rendu" — un format permanent dans votre Project, toujours le même résultat
 
 **Slide 5**
 ❌ Vos réponses sont génériques parce que l'IA ne connaît pas vos documents internes
@@ -73,7 +73,7 @@ Ce qu'elle ne savait pas : il existe des outils pour que l'IA travaille *dans* s
 On a configuré ensemble :
 
 → Un Project "Recrutement" avec sa grille d'évaluation habituelle, son processus d'entretien, ses exigences de format
-→ Un Skill "Offre d'emploi" avec ses sections obligatoires et son ton de marque employeur
+→ Des Instructions de Projet "Offre d'emploi" avec ses sections obligatoires et son ton de marque employeur
 → Un Artifact type pour les comptes rendus de comité — tableau décisions + actions + responsables
 
 Résultat : ses offres d'emploi sont produites en 8 minutes au lieu de 40.
@@ -88,4 +88,4 @@ Donner ce contexte une fois, structurellement, c'est la différence entre l'IA c
 
 ---
 
-*Vous voulez former votre équipe à cette discipline ? La formation IA Générative pour PME/ETI françaises couvre Projects, Artifacts et Skills dans le module M6 — avec des exercices concrets sur des cas métier réels.*
+*Vous voulez former votre équipe à cette discipline ? La formation IA Générative pour PME/ETI françaises couvre Projects, Artifacts et Instructions de Projet dans le module M6 — avec des exercices concrets sur des cas métier réels.*

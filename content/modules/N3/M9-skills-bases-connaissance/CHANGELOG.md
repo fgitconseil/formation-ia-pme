@@ -1,5 +1,14 @@
 # CHANGELOG — M9 Skills et bases de connaissance
 
+## v2.1 — 2026-03 · Propagation terminologie quiz + exercice + post
+
+### Corrections
+- Quiz : titre + Q1-Q8 + corrigé — "Skill d'instruction" → "Instructions de Projet" · "Skill de connaissance" → "Base de connaissance du Projet" · "Skills déployés" → "Bases de connaissance déployées"
+- Exercice : 3 exercices entiers + gabarits — même remplacement terminologique
+- Post LinkedIn : pied de page variante B — "Skills de connaissance" → "Bases de connaissance du Projet"
+
+---
+
 ## v2 — 2026-03 · BROUILLON · post-NotebookLM + ref v2
 
 ### Corrections intégrées

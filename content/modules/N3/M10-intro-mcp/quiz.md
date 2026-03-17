@@ -163,4 +163,4 @@ La première action est de gouvernance, pas technique. Définir le périmètre d
 | 8/8 | ✅ Excellent | Vous pouvez déployer avec confiance. Passez à M11. |
 | 6-7/8 | ✅ Validé | Prêt pour M11. Notez les questions ratées pour votre référence. |
 | 4-5/8 | ⚠️ À consolider | Relisez les sections correspondantes avant de déployer. |
-| < 4/8 | 🔴 À revoir | Repassez M10 avant tout déploiement MCP. |
+| < 4/8 | ⚠️ À revoir | Repassez M10 avant tout déploiement MCP. |

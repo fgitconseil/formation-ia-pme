@@ -33,6 +33,15 @@
 
 ---
 
+## v2.1 — 2026-03 · Propagation terminologie quiz + exercice 3 + posts
+
+### Corrections
+- Quiz Q6 : "Un Skill dans Claude" → "Les Instructions de Projet dans claude.ai" · corrigé mis à jour · renvoi bas de page mis à jour
+- Exercice 3 : "Identifier 3 usages Skills" → "Identifier 3 usages d'Instructions de Projet" · tableaux entiers renommés
+- Post LinkedIn : 3 occurrences "Skills" → "Instructions de Projet" dans variantes A, B et C + pied de page
+
+---
+
 ## v2 — 2026-03 · BROUILLON · contre-validation externe + extension durée
 
 ### Extension structurelle

@@ -73,7 +73,7 @@ Vous voulez capitaliser votre workflow de préparation de réunion client. Vous 
 
 A. Un Project dédié par réunion client
 B. Un Artifact type que vous redemandez à chaque fois
-C. Un Skill "Préparation réunion client" — instructions réutilisables en une ligne dans n'importe quelle conversation
+C. Des Instructions de Projet "Préparation réunion client" — instructions permanentes réutilisables dans n'importe quelle conversation du Project dédié
 D. Un prompt de production sauvegardé dans un fichier texte personnel
 
 ---
@@ -109,7 +109,7 @@ D. Ce n'est important que pour les équipes qui partagent leurs prompts — pas 
 | 3 | **C** | L'exploration est le bon type quand le sujet est ouvert et que les critères ne sont pas encore définis. La production nécessite un livrable défini. |
 | 4 | **B** | Un Project par périmètre distinct. Mélanger les sujets réduit la précision des réponses et crée des risques de confusion de contexte. |
 | 5 | **B** | Le niveau 🟡 est obligatoire avant toute diffusion. Un plan structuré peut contenir des informations incorrectes — la structure ne valide pas le fond. |
-| 6 | **C** | Un Skill est conçu exactement pour ce cas : tâche récurrente, mêmes paramètres, réutilisable en une ligne. Un Project par réunion serait du surchargement. |
+| 6 | **C** | Les Instructions de Projet sont conçues exactement pour ce cas : tâche récurrente, mêmes paramètres, réutilisables dans n'importe quelle conversation. Un Project par réunion serait du surchargement. |
 | 7 | **C** | Si le contenu est vérifié mais pas encore exploitable sans retraitement, vous êtes en 🔵. L'objectif 🔵 est "format directement exploitable, zéro retraitement". |
 | 8 | **B** | La fiche prompt capture les apprentissages, pas seulement l'échange. Sans fiche, la boucle d'amélioration ne s'accumule pas — c'est la différence entre usage opportuniste et pratique structurée. |
 
@@ -118,3 +118,7 @@ D. Ce n'est important que pour les équipes qui partagent leurs prompts — pas 
 **Score ≥ 6/8 → Niveau 2 validé · Vous êtes prêt pour M8 (Niveau 3)**
 **Score 4-5/8 → Revenir sur les modules dont les questions ont échoué**
 **Score < 4/8 → Revoir l'ensemble du Niveau 2 avant de continuer**
+
+---
+
+*Pour aller plus loin : M8 — Configurer un assistant personnalisé couvre la configuration complète d'un assistant (system prompt, test de robustesse, déploiement en équipe).*

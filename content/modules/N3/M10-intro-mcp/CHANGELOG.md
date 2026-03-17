@@ -1,5 +1,12 @@
 # CHANGELOG — M10 Connecter l'IA à vos outils métier — Introduction au MCP
 
+## v1.1 — 2026-03 · Correction format tableau résultats quiz
+
+### Correction
+- quiz.md tableau résultats : "🔴 À revoir" → "⚠️ À revoir" (cohérence avec la convention de notation ✅/⚠️)
+
+---
+
 ## v1 — 2026-03 · BROUILLON
 
 > **⚠️ Module conditionnel V1 — décision d'inclusion post-Aristid S4**

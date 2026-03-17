@@ -14,6 +14,13 @@
 
 ---
 
+## v2.1 — 2026-03 · Correction durée exercice
+
+### Correction
+- exercice.md : "~25 min" → "25-40 min selon la complexité du document choisi" (audit recommandation)
+
+---
+
 ## v2 — 2026-03 · BROUILLON · post-NotebookLM + ref v2
 
 ### Corrections intégrées

@@ -1,5 +1,5 @@
 # M5 — Exercice pratique : Faire progresser votre document de 🟢 à 🟡
-> Durée : ~25 min · Format : cas complet autonome avec vos documents réels
+> Durée : 25-40 min selon la complexité du document choisi · Format : cas complet autonome avec vos documents réels
 
 ---
 
