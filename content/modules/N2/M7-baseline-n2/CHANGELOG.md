@@ -28,3 +28,22 @@
 - Quiz : PRÊT
 - Exercice : PRÊT
 - Post LinkedIn : PRÊT
+
+---
+
+## v2 — 2026-03 · BROUILLON · contre-validation externe (corrections légères)
+
+### Fichiers créés
+- `atelier-v2.md` — Atelier autonome ~20 min : corrections NotebookLM intégrées
+
+### Enrichissements intégrés
+- 🔴 Remplacer "Skills" → "Instructions de Projet" (cohérence référentiel v2) — Introduction + Partie 3
+- 🟡 Ajouter "penser étape par étape / critiquer son propre plan" dans Cycle 3 — Partie 2
+  → Formulation : "Avant de répondre, expose ton raisonnement, puis critique-le avant de donner ta réponse finale"
+- 🟡 Ajouter critère 9 "Discernement de délégation" dans checklist N3 — Partie 3
+  → "Je sais identifier quelles tâches bénéficient d'un assistant permanent vs quelles tâches se traitent mieux en conversation ponctuelle"
+- 🟡 Ajouter note "Instructions de Projet = évolution naturelle de la bibliothèque" — Partie 1
+- Checklist N3 : 8 points → 9 points · bilan du cycle enrichi d'un critère thinking
+- Fiche prompt : ajout champ "Intégré en Instructions de Projet"
+
+### Référence : _qualite/audits/M7-contre-validation-externe.md
