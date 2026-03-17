@@ -29,3 +29,22 @@
 ### À faire (S9)
 - Audit qualité (grille-evaluation.md → M11-audit-v1.md)
 - Relecture du guide : vérifier longueur réelle (~1500 mots cible)
+
+---
+
+## v2 — 2026-03 · BROUILLON · contre-validation externe
+
+### Extension structurelle
+- ~1690 mots (v1) → ~2569 mots (v2)
+- Structure 4 parties préservée · Partie 4 enrichie + section "Aller plus loin" ajoutée
+
+### Enrichissements intégrés
+- 🔴 Terminologie : "Skills d'instruction" → "Instructions de Projet", "Skills de connaissance" → "Bases de connaissance", "Propriétaire du Skill" → "Propriétaire de la Base de connaissance"
+- 🟡 Nommer explicitement Article 4 AI Act (AI Literacy) dans l'Introduction
+- 🟡 Ajouter critère 11 "Classification AI Act" dans checklist 🟣 — Partie 3 (10 → 11 critères)
+- 🟡 Critère 9 mis à jour : mention documentation formation AI Literacy (obligation Art. 4)
+- 🟡 Template tableau de bord concret : structure colonnes A→I (Excel/Sheets) + mise en forme conditionnelle + routine mensuelle — Partie 4
+- 🟢 Mention souveraineté numérique / hébergement Europe (Mistral, Azure France, RGPD) — Partie 2
+- 🟢 Framework 4 couches optionnel (Instructions → Bases de connaissance → Hooks → Sous-agents) — Notes référent IA
+
+### Référence : _qualite/audits/M11-contre-validation-externe.md
