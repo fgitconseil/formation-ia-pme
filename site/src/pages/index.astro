@@ -1,0 +1,203 @@
+---
+import Layout from '../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL;
+---
+<Layout title="Formation IA Générative" description="Formation IA Générative gratuite pour les professionnels. Méthode S.F.O.I. — Structurer, Fiabiliser, Optimiser, Industrialiser.">
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden py-24 px-4 text-center animate-fade-up">
+    <div class="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 -z-10"></div>
+    <div class="absolute inset-0 opacity-20 -z-10"
+         style="background-image: radial-gradient(circle at 30% 50%, #2563eb 0%, transparent 60%), radial-gradient(circle at 70% 30%, #7c3aed 0%, transparent 50%)">
+    </div>
+
+    <div class="max-w-3xl mx-auto">
+      <p class="text-sm font-semibold text-blue-400 uppercase tracking-widest mb-4">Formation gratuite · FGIT Conseil</p>
+      <h1 class="text-4xl sm:text-5xl font-extrabold text-white leading-tight mb-6">
+        Maîtrisez l'IA générative<br />
+        <span class="gradient-text">dans votre contexte professionnel</span>
+      </h1>
+      <p class="text-slate-300 text-lg mb-4 max-w-2xl mx-auto leading-relaxed">
+        Une méthode en 4 niveaux pour passer d'un usage conversationnel à une pratique professionnelle — sans prendre ses réponses pour argent comptant.
+      </p>
+      <p class="text-slate-400 text-sm mb-10 italic">
+        "Vous n'êtes pas le produit. La connaissance est le seul bien de valeur qu'on ne perd pas en le partageant."
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href={`${base}formation/`} class="btn-primary text-base px-8 py-4">Commencer la formation →</a>
+        <a href="#syllabus" class="btn-secondary text-base px-8 py-4 border-slate-600 text-slate-300 hover:bg-slate-700 hover:text-white hover:border-slate-700">Voir le programme</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 messages -->
+  <section class="py-20 px-4 bg-white animate-fade-up">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-8">
+      <div class="card text-center animate-fade-up">
+        <div class="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mx-auto mb-4">
+          <span class="text-2xl">🎯</span>
+        </div>
+        <h3 class="font-bold text-slate-900 text-lg mb-2">Opérationnel dès le premier bloc</h3>
+        <p class="text-slate-500 text-sm leading-relaxed">Chaque bloc de 20 minutes vous donne un réflexe concret à appliquer dans votre travail.</p>
+      </div>
+      <div class="card text-center animate-fade-up animate-fade-up-1">
+        <div class="w-12 h-12 rounded-xl bg-purple-50 flex items-center justify-center mx-auto mb-4">
+          <span class="text-2xl">🏗️</span>
+        </div>
+        <h3 class="font-bold text-slate-900 text-lg mb-2">Une méthode, pas des astuces</h3>
+        <p class="text-slate-500 text-sm leading-relaxed">S.F.O.I. structure votre pratique de l'IA pour qu'elle soit rigoureuse, fiable et reproductible.</p>
+      </div>
+      <div class="card text-center animate-fade-up animate-fade-up-2">
+        <div class="w-12 h-12 rounded-xl bg-green-50 flex items-center justify-center mx-auto mb-4">
+          <span class="text-2xl">✓</span>
+        </div>
+        <h3 class="font-bold text-slate-900 text-lg mb-2">Entièrement gratuit</h3>
+        <p class="text-slate-500 text-sm leading-relaxed">Aucune inscription. Aucune donnée collectée. Aucune contrepartie cachée.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Méthode S.F.O.I. -->
+  <section id="methode" class="py-20 px-4 bg-slate-50 animate-fade-up">
+    <div class="max-w-4xl mx-auto text-center mb-12">
+      <p class="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2">La méthode</p>
+      <h2 class="text-3xl font-bold text-slate-900 mb-4">S.F.O.I. — Quatre niveaux de maîtrise</h2>
+      <p class="text-slate-500 max-w-2xl mx-auto">
+        Si vous n'apportez rien à la réponse du LLM, c'est soit que vous n'êtes pas expert du sujet, soit que vous nivelez vers le bas. L'objectif : vous positionner comme décideur à chaque étape.
+      </p>
+    </div>
+    <div class="max-w-4xl mx-auto grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div class="card animate-fade-up">
+        <div class="w-10 h-10 rounded-full flex items-center justify-center mb-3 font-bold text-white text-sm" style="background:#22c55e">S</div>
+        <div class="font-bold text-slate-900 mb-1">Structurer</div>
+        <p class="text-slate-500 text-sm">Organiser l'information sans en perdre. Prompt → réponse utile.</p>
+      </div>
+      <div class="card animate-fade-up animate-fade-up-1">
+        <div class="w-10 h-10 rounded-full flex items-center justify-center mb-3 font-bold text-white text-sm" style="background:#eab308">F</div>
+        <div class="font-bold text-slate-900 mb-1">Fiabiliser</div>
+        <p class="text-slate-500 text-sm">Rendre chaque affirmation vérifiable. Ne rien publier sans vérification.</p>
+      </div>
+      <div class="card animate-fade-up animate-fade-up-2">
+        <div class="w-10 h-10 rounded-full flex items-center justify-center mb-3 font-bold text-white text-sm" style="background:#3b82f6">O</div>
+        <div class="font-bold text-slate-900 mb-1">Optimiser</div>
+        <p class="text-slate-500 text-sm">Transformer la réponse en outil directement exploitable.</p>
+      </div>
+      <div class="card animate-fade-up animate-fade-up-3">
+        <div class="w-10 h-10 rounded-full flex items-center justify-center mb-3 font-bold text-white text-sm" style="background:#a855f7">I</div>
+        <div class="font-bold text-slate-900 mb-1">Industrialiser</div>
+        <p class="text-slate-500 text-sm">Intégrer dans un système organisationnel gouverné.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fiche mémo -->
+  <section class="py-16 px-4 bg-white animate-fade-up">
+    <div class="max-w-2xl mx-auto">
+      <div class="card flex items-center gap-6 hover:border-purple-400">
+        <div class="w-14 h-14 rounded-xl flex items-center justify-center flex-shrink-0 text-2xl" style="background: linear-gradient(135deg,#a855f7,#7c3aed)">
+          📄
+        </div>
+        <div>
+          <div class="font-bold text-slate-900 mb-1">Fiches mémo imprimables</div>
+          <p class="text-slate-500 text-sm">Après chaque bloc clé, une fiche A5 synthétise les points essentiels — à garder sous la main pendant vos sessions IA.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Syllabus -->
+  <section id="syllabus" class="py-20 px-4 bg-slate-50 animate-fade-up">
+    <div class="max-w-3xl mx-auto">
+      <div class="text-center mb-10">
+        <p class="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2">Programme</p>
+        <h2 class="text-3xl font-bold text-slate-900">6 blocs · Parcours distanciel</h2>
+        <p class="text-slate-500 mt-3 text-base">De la compréhension à la mise en pratique organisationnelle — à votre rythme.</p>
+      </div>
+
+      <div class="space-y-3">
+        {[
+          {
+            n: 1, url: 'bloc-01', phase: 'Comprendre',
+            titre: "Comprendre l'IA Gen", duree: '~20 min', takeaway: false,
+            color: 'bg-blue-600',
+            desc: "Ce qu'est vraiment un LLM : un moteur de prédiction statistique, pas un moteur de vérité. Mécanisme, cut-off, hallucinations, implications concrètes.",
+          },
+          {
+            n: 2, url: 'bloc-02', phase: 'Comprendre',
+            titre: 'Risques, cadre et responsabilités', duree: '~20 min', takeaway: true,
+            color: 'bg-blue-600',
+            desc: "Les 3 risques professionnels réels — exfiltration, risque réputationnel, industrialisation prématurée. Les règles simples pour ne pas les subir.",
+          },
+          {
+            n: 3, url: 'bloc-03', phase: 'Choisir',
+            titre: 'Choisir son prompt', duree: '~20 min', takeaway: true,
+            color: 'bg-green-600',
+            desc: "Les 4 intentions de prompt — Production, Exploration, Structuration, Vérification. Un mauvais type de prompt génère une mauvaise catégorie de réponse.",
+          },
+          {
+            n: 4, url: 'bloc-04', phase: 'Méthode',
+            titre: 'La méthode S.F.O.I.', duree: '~20 min', takeaway: true,
+            color: 'bg-yellow-500',
+            desc: "🟢 Structurer sans perdre · 🟡 Fiabiliser chaque affirmation · 🔵 Optimiser pour l'usage direct · 🟣 Industrialiser avec gouvernance. Cas Marc (RH).",
+          },
+          {
+            n: 5, url: 'bloc-05', phase: 'Outiller',
+            titre: 'Projets, instructions et documents', duree: '~20 min', takeaway: true,
+            color: 'bg-green-600',
+            desc: "Ne plus repartir de zéro à chaque session. Projets persistants, Artifacts directement exploitables, Instructions de Projet pour capitaliser votre contexte métier.",
+          },
+          {
+            n: 6, url: 'bloc-06', phase: 'Conclusion',
+            titre: "Ce qu'un assistant augmenté change", duree: '~15 min', takeaway: false,
+            color: 'bg-purple-600',
+            desc: "Skills, responsabilité déplacée, boucle amplificatrice et reddition cognitive. Ce que la formation individuelle ne résout pas — et ce que le Coach IA adresse.",
+          },
+        ].map(item => (
+          <a
+            href={`${base}formation/${item.url}/`}
+            class="flex items-start gap-4 p-5 bg-white rounded-xl border border-slate-100 hover:border-blue-300 hover:shadow-md transition-all no-underline group animate-fade-up"
+          >
+            <div class={`w-9 h-9 rounded-full ${item.color} text-white flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5`}>
+              {item.n}
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 flex-wrap mb-1">
+                <span class="font-semibold text-slate-900 text-sm group-hover:text-blue-700 transition-colors">{item.titre}</span>
+                <span class="text-xs text-slate-400 font-medium">{item.duree}</span>
+                {item.takeaway && (
+                  <span class="text-xs bg-blue-50 text-blue-600 border border-blue-100 px-2 py-0.5 rounded-full font-medium">Fiche mémo</span>
+                )}
+              </div>
+              <div class="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-1">{item.phase}</div>
+              <div class="text-slate-500 text-sm leading-relaxed">{item.desc}</div>
+            </div>
+            <div class="text-slate-300 group-hover:text-blue-400 transition-colors self-center flex-shrink-0 ml-2">→</div>
+          </a>
+        ))}
+      </div>
+
+      <div class="text-center mt-10">
+        <a href={`${base}formation/`} class="btn-primary text-base px-8 py-4">Commencer maintenant →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coach IA -->
+  <section class="py-20 px-4 bg-gradient-to-br from-slate-900 to-slate-800 text-white animate-fade-up">
+    <div class="max-w-2xl mx-auto text-center">
+      <p class="text-sm font-semibold text-slate-400 uppercase tracking-wide mb-3">Accompagnement</p>
+      <h2 class="text-2xl font-bold mb-4">
+        Vos collaborateurs ont suivi la formation —<br />
+        mais les pratiques ne changent pas dans l'organisation ?
+      </h2>
+      <p class="text-slate-300 leading-relaxed mb-6">
+        Ce n'est pas un problème de compétence — c'est un problème de système.<br />
+        C'est exactement ce qu'on adresse en accompagnement.
+      </p>
+      <a href="/coach-ia/" class="btn-secondary border-slate-500 text-slate-300 hover:bg-slate-700 hover:text-white hover:border-slate-600">
+        En savoir plus →
+      </a>
+    </div>
+  </section>
+
+</Layout>

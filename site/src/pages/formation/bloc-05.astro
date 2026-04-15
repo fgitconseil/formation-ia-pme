@@ -1,0 +1,31 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SlidePlayer from '../../components/SlidePlayer.astro';
+import { getSlidesForBloc, BLOCS } from '../../lib/slideData';
+const base = import.meta.env.BASE_URL;
+
+const bloc = BLOCS.find(b => b.id === 'bloc-05')!;
+const next = BLOCS.find(b => b.ordre === bloc.ordre + 1);
+const slides = getSlidesForBloc('bloc-05');
+const takeawayUrl = `${base}takeaways/takeaway-p1-02-projets.html`;
+---
+<Layout title={bloc.titre}>
+  <section class="max-w-5xl mx-auto px-4 py-10">
+    <nav class="mb-6 text-sm text-slate-400">
+      <a href={`${base}formation/`} class="hover:text-slate-700 transition-colors no-underline">← Parcours</a>
+      <span class="mx-2">·</span>
+      <span class="text-slate-500">{bloc.phase}</span>
+    </nav>
+
+    <h1 class="text-2xl font-bold text-slate-900 mb-1">{bloc.titre}</h1>
+    <p class="text-slate-400 text-sm mb-8">{bloc.duree} · {bloc.phase}</p>
+
+    <SlidePlayer
+      slides={slides}
+      blocId={bloc.id}
+      nextBlocUrl={next ? `${base}formation/${next.id}/` : undefined}
+      nextBlocTitle={next?.titre}
+      takeawayUrl={takeawayUrl}
+    />
+  </section>
+</Layout>

@@ -1,0 +1,16 @@
+---
+import ReviewLayout from '../../layouts/ReviewLayout.astro';
+import ModuleTabs from '../../components/ModuleTabs.astro';
+import { readMarkdownFile, toHtml } from '../../lib/modules';
+
+const dir = 'Partie3/02-iterer-connaissance';
+const sections = [
+  { id: 'atelier',  label: 'Atelier',      html: toHtml(readMarkdownFile(`${dir}/atelier-v5.md`)) },
+  { id: 'quiz',     label: 'Quiz',         html: toHtml(readMarkdownFile(`${dir}/quiz.md`)) },
+  { id: 'exercice', label: 'Exercice',     html: toHtml(readMarkdownFile(`${dir}/exercice.md`)) },
+  { id: 'post',     label: 'Post LinkedIn',html: toHtml(readMarkdownFile(`${dir}/post-linkedin.md`)) },
+];
+---
+<ReviewLayout title="Itérer — la connaissance évolue">
+  <ModuleTabs module="Partie 3 — bloc 2" titre="Itérer — la connaissance évolue" sections={sections} />
+</ReviewLayout>

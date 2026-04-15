@@ -1,0 +1,16 @@
+---
+import ReviewLayout from '../../layouts/ReviewLayout.astro';
+import ModuleTabs from '../../components/ModuleTabs.astro';
+import { readMarkdownFile, toHtml } from '../../lib/modules';
+
+const dir = 'Intro/03-langage-commun';
+const sections = [
+  { id: 'checklist', label: 'Checklist',    html: toHtml(readMarkdownFile(`${dir}/checklist-v3.md`)) },
+  { id: 'quiz',      label: 'Quiz',         html: toHtml(readMarkdownFile(`${dir}/quiz.md`)) },
+  { id: 'exercice',  label: 'Exercice',     html: toHtml(readMarkdownFile(`${dir}/exercice.md`)) },
+  { id: 'post',      label: 'Post LinkedIn',html: toHtml(readMarkdownFile(`${dir}/post-linkedin.md`)) },
+];
+---
+<ReviewLayout title="Créer un langage commun">
+  <ModuleTabs module="Intro — bloc 3" titre="Créer un langage commun" sections={sections} />
+</ReviewLayout>

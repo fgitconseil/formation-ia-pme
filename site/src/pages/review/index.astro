@@ -1,0 +1,115 @@
+---
+import ReviewLayout from '../../layouts/ReviewLayout.astro';
+const base = import.meta.env.BASE_URL;
+
+const blocs = [
+  // INTRO
+  { partie: 'Intro', slug: 'intro-01-comprendre-ia',          titre: "Comprendre l'IA Gen",                                  duree: '~20 min',    statut: '✅ Prêt' },
+  { partie: 'Intro', slug: 'intro-02-risques-cadre',           titre: 'Risques, cadre et responsabilités',                    duree: '~20 min',    statut: '✅ Prêt' },
+  { partie: 'Intro', slug: 'intro-03-langage-commun',          titre: 'Créer un langage commun',                              duree: 'Checklist',  statut: '✅ Prêt' },
+  // PARTIE 1
+  { partie: 'Partie 1', slug: 'partie1-01-choisir-son-prompt',   titre: 'Choisir son prompt',                                 duree: '~20 min',    statut: '✅ Prêt' },
+  { partie: 'Partie 1', slug: 'partie1-02-projets-instructions', titre: 'Projets, instructions et documents',                 duree: '~20 min',    statut: '✅ Prêt' },
+  // PARTIE 2
+  { partie: 'Partie 2', slug: 'partie2-01-methode-fg4',          titre: 'La méthode S.F.O.I.',                                duree: '~20 min',    statut: '✅ Prêt' },
+  { partie: 'Partie 2', slug: 'partie2-02-intro-skills-rag',     titre: 'Introduction aux skills et à la base de connaissances', duree: '~20 min', statut: '✅ Prêt' },
+  // PARTIE 3
+  { partie: 'Partie 3', slug: 'partie3-01-constituer-assistant', titre: 'Constituer son assistant',                           duree: '~20 min',    statut: '✅ Prêt' },
+  { partie: 'Partie 3', slug: 'partie3-02-iterer-connaissance',  titre: 'Itérer — la connaissance évolue',                    duree: 'Atelier',    statut: '✅ Prêt' },
+  { partie: 'Partie 3', slug: 'partie3-03-gouverner-duree',      titre: 'Gouverner dans la durée',                            duree: 'Guide',      statut: '✅ Prêt' },
+  { partie: 'Partie 3', slug: 'partie3-04-skills-coach-ia',      titre: "Ce qu'un assistant augmenté change — intro Coach IA", duree: '~20 min',   statut: '✅ Prêt' },
+];
+
+const parties = ['Intro', 'Partie 1', 'Partie 2', 'Partie 3'];
+const badgeClass: Record<string, string> = {
+  'Intro': 'intro',
+  'Partie 1': 'p1',
+  'Partie 2': 'p2',
+  'Partie 3': 'p3',
+};
+---
+<ReviewLayout title="Review — Accueil">
+  <style>
+    .review-home h1 { font-size: 1.6rem; margin-bottom: 0.3rem; }
+    .review-home .subtitle { color: #666; margin-bottom: 2rem; font-size: 0.95rem; }
+    .review-home .note-box {
+      background: #fffbea;
+      border: 1px solid #fcd34d;
+      border-radius: 6px;
+      padding: 0.85rem 1rem;
+      font-size: 0.88rem;
+      margin-bottom: 1.75rem;
+      color: #78350f;
+    }
+    .review-home .note-box code { background: #fef3c7; padding: 1px 4px; border-radius: 3px; font-size: 0.85em; }
+
+    .partie-title { font-size: 1rem; font-weight: 700; margin: 1.5rem 0 0.5rem; color: #333; }
+
+    .review-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin-bottom: 1rem; }
+    .review-table th { background: #f5f5f5; font-weight: 700; padding: 0.5rem 0.75rem; border: 1px solid #e0e0e0; text-align: left; }
+    .review-table td { padding: 0.45rem 0.75rem; border: 1px solid #e0e0e0; vertical-align: middle; }
+    .review-table tr:hover td { background: #fafafa; }
+    .review-table a { color: #1a1a1a; font-weight: 500; text-decoration: none; }
+    .review-table a:hover { text-decoration: underline; color: #0070f3; }
+
+    .badge { display: inline-block; font-size: 0.7rem; font-weight: 700; padding: 2px 6px; border-radius: 3px; }
+    .intro { background: #e0f2fe; color: #075985; }
+    .p1   { background: #dcfce7; color: #166534; }
+    .p2   { background: #fef9c3; color: #713f12; }
+    .p3   { background: #ede9fe; color: #4c1d95; }
+
+    .suivi-section h2 { font-size: 1rem; font-weight: 700; margin: 2rem 0 1rem; }
+    .suivi-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.5rem; }
+    .suivi-item { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0.75rem; border: 1px solid #e5e5e5; border-radius: 5px; font-size: 0.85rem; }
+    .suivi-item input { cursor: pointer; }
+    .suivi-item label { cursor: pointer; user-select: none; }
+  </style>
+
+  <div class="review-home">
+    <h1>🔍 Review Formation IA — Relecture orale</h1>
+    <p class="subtitle">Session de validation avant tournage — 2026-04</p>
+
+    <div class="note-box">
+      📋 Notes de relecture : <code>_qualite/notes-relecture-orale.md</code> — noter les passages à retravailler, durées réelles, points d'accroche.<br/>
+      📐 Référence structure : <code>_instructions/plan-v2.md</code> — versions finales dans <code>_instructions/versions-finales.md</code>
+    </div>
+
+    {parties.map(partie => (
+      <div>
+        <div class="partie-title">{partie}</div>
+        <table class="review-table">
+          <thead>
+            <tr>
+              <th>Bloc</th>
+              <th>Partie</th>
+              <th>Durée cible</th>
+              <th>Statut</th>
+            </tr>
+          </thead>
+          <tbody>
+            {blocs.filter(b => b.partie === partie).map(b => (
+              <tr>
+                <td><a href={`${base}modules/${b.slug}/`}>{b.titre}</a></td>
+                <td><span class={`badge ${badgeClass[b.partie]}`}>{b.partie}</span></td>
+                <td>{b.duree}</td>
+                <td>{b.statut}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    ))}
+
+    <div class="suivi-section">
+      <h2>Suivi relecture orale</h2>
+      <div class="suivi-grid">
+        {blocs.map(b => (
+          <div class="suivi-item">
+            <input type="checkbox" id={`check-${b.slug}`} />
+            <label for={`check-${b.slug}`}>{b.titre.slice(0, 28)}{b.titre.length > 28 ? '…' : ''}</label>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</ReviewLayout>

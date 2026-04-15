@@ -1,0 +1,16 @@
+---
+import ReviewLayout from '../../layouts/ReviewLayout.astro';
+import ModuleTabs from '../../components/ModuleTabs.astro';
+import { readMarkdownFile, toHtml } from '../../lib/modules';
+
+const dir = 'Partie3/01-constituer-assistant';
+const sections = [
+  { id: 'script',   label: 'Script',       html: toHtml(readMarkdownFile(`${dir}/script-v5.md`)) },
+  { id: 'quiz',     label: 'Quiz',         html: toHtml(readMarkdownFile(`${dir}/quiz.md`)) },
+  { id: 'exercice', label: 'Exercice',     html: toHtml(readMarkdownFile(`${dir}/exercice.md`)) },
+  { id: 'post',     label: 'Post LinkedIn',html: toHtml(readMarkdownFile(`${dir}/post-linkedin.md`)) },
+];
+---
+<ReviewLayout title="Constituer son assistant">
+  <ModuleTabs module="Partie 3 — bloc 1" titre="Constituer son assistant" sections={sections} />
+</ReviewLayout>

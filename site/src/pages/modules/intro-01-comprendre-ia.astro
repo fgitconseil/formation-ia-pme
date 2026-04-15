@@ -1,0 +1,16 @@
+---
+import ReviewLayout from '../../layouts/ReviewLayout.astro';
+import ModuleTabs from '../../components/ModuleTabs.astro';
+import { readMarkdownFile, toHtml } from '../../lib/modules';
+
+const dir = 'Intro/01-comprendre-ia';
+const sections = [
+  { id: 'script',   label: 'Script',       html: toHtml(readMarkdownFile(`${dir}/script-v4.md`)) },
+  { id: 'quiz',     label: 'Quiz',         html: toHtml(readMarkdownFile(`${dir}/quiz.md`)) },
+  { id: 'exercice', label: 'Exercice',     html: toHtml(readMarkdownFile(`${dir}/exercice.md`)) },
+  { id: 'post',     label: 'Post LinkedIn',html: toHtml(readMarkdownFile(`${dir}/post-linkedin.md`)) },
+];
+---
+<ReviewLayout title="Comprendre l'IA Gen">
+  <ModuleTabs module="Intro — bloc 1" titre="Comprendre l'IA Gen" sections={sections} />
+</ReviewLayout>

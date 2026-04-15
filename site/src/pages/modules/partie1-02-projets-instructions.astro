@@ -1,0 +1,16 @@
+---
+import ReviewLayout from '../../layouts/ReviewLayout.astro';
+import ModuleTabs from '../../components/ModuleTabs.astro';
+import { readMarkdownFile, toHtml } from '../../lib/modules';
+
+const dir = 'Partie1/02-projets-instructions';
+const sections = [
+  { id: 'script',   label: 'Script',       html: toHtml(readMarkdownFile(`${dir}/script-v6.md`)) },
+  { id: 'quiz',     label: 'Quiz',         html: toHtml(readMarkdownFile(`${dir}/quiz.md`)) },
+  { id: 'exercice', label: 'Exercice',     html: toHtml(readMarkdownFile(`${dir}/exercice.md`)) },
+  { id: 'post',     label: 'Post LinkedIn',html: toHtml(readMarkdownFile(`${dir}/post-linkedin.md`)) },
+];
+---
+<ReviewLayout title="Projets, instructions et documents">
+  <ModuleTabs module="Partie 1 — bloc 2" titre="Projets, instructions et documents" niveau="Partie1" sections={sections} />
+</ReviewLayout>

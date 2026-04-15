@@ -1,0 +1,16 @@
+---
+import ReviewLayout from '../../layouts/ReviewLayout.astro';
+import ModuleTabs from '../../components/ModuleTabs.astro';
+import { readMarkdownFile, toHtml } from '../../lib/modules';
+
+const dir = 'Partie2/02-intro-skills-rag';
+const sections = [
+  { id: 'script',   label: 'Script',       html: toHtml(readMarkdownFile(`${dir}/script-v5.md`)) },
+  { id: 'quiz',     label: 'Quiz',         html: toHtml(readMarkdownFile(`${dir}/quiz.md`)) },
+  { id: 'exercice', label: 'Exercice',     html: toHtml(readMarkdownFile(`${dir}/exercice.md`)) },
+  { id: 'post',     label: 'Post LinkedIn',html: toHtml(readMarkdownFile(`${dir}/post-linkedin.md`)) },
+];
+---
+<ReviewLayout title="Introduction aux skills et à la base de connaissances">
+  <ModuleTabs module="Partie 2 — bloc 2" titre="Introduction aux skills et à la base de connaissances" niveau="Partie2" sections={sections} />
+</ReviewLayout>

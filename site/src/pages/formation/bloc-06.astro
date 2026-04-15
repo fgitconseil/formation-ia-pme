@@ -1,0 +1,38 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import SlidePlayer from '../../components/SlidePlayer.astro';
+import { getSlidesForBloc, BLOCS } from '../../lib/slideData';
+const base = import.meta.env.BASE_URL;
+
+const bloc = BLOCS.find(b => b.id === 'bloc-06')!;
+const slides = getSlidesForBloc('bloc-06');
+// Last bloc — no next, no takeaway, coach IA CTA instead
+---
+<Layout title={bloc.titre}>
+  <section class="max-w-5xl mx-auto px-4 py-10">
+    <nav class="mb-6 text-sm text-slate-400">
+      <a href={`/formation/`} class="hover:text-slate-700 transition-colors no-underline">← Parcours</a>
+      <span class="mx-2">·</span>
+      <span class="text-slate-500">{bloc.phase}</span>
+    </nav>
+
+    <h1 class="text-2xl font-bold text-slate-900 mb-1">{bloc.titre}</h1>
+    <p class="text-slate-400 text-sm mb-8">{bloc.duree} · {bloc.phase}</p>
+
+    <SlidePlayer
+      slides={slides}
+      blocId={bloc.id}
+    />
+
+    <!-- Coach IA CTA — affiché en bas du dernier bloc -->
+    <div class="mt-12 p-8 rounded-2xl bg-gradient-to-br from-slate-900 to-slate-800 text-white">
+      <p class="text-sm font-semibold text-slate-400 uppercase tracking-wide mb-3">Aller plus loin</p>
+      <h2 class="text-xl font-bold mb-3">Vos collaborateurs ont suivi la formation — mais les pratiques ne changent pas dans l'organisation ?</h2>
+      <p class="text-slate-300 mb-5 leading-relaxed">
+        Ce n'est pas un problème de compétence — c'est un problème de système.<br />
+        C'est exactement ce qu'on adresse en accompagnement.
+      </p>
+      <a href="/coach-ia/" class="btn-primary inline-flex">En savoir plus →</a>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,26 @@
+# ── Build / deps ──────────────────────────────────────────
+node_modules/
+dist/
+.astro/
+.env
+.DS_Store
+*.log
+
+# ── Contenu formation (local uniquement, jamais dans le repo public) ──
+content/
+_qualite/
+_archives/
+_instructions/
+_journal/
+_validation/
+_validation_externe_v2/
+_validation_externe_v3/
+_tts_testing/
+audios_et_illustrations/
+tts_test/
+scripts/
+linkedin/
+livrables/
+CLAUDE.md
+Prompting-final*.md
+*.xlsx
